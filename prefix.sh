@@ -1,4 +1,6 @@
-export ICU_VERSION="64-2"
+export ICU_VERSION_MAJOR="64"
+export ICU_VERSION_MINOR="2"
+export ICU_VERSION="${ICU_VERSION_MAJOR}-{ICU_VERSION_MINOR}"
 
 #base directory
 export BASE_ICU_DIR="/Users/sergi/Developer/icu4darwin/"
@@ -35,7 +37,7 @@ export CONFIG_PREFIX=" --enable-extras=yes \
 --enable-strict=no \
 --enable-static \
 --enable-shared=no \
---enable-tests=yes \
+--enable-tests=no \
 --disable-renaming \
 --enable-samples=no \
 --enable-dyload=no \
@@ -51,7 +53,6 @@ defines_config_set_1=( \
 "UCONFIG_NO_LEGACY_CONVERSION" \
 "UCONFIG_NO_BREAK_ITERATION" \
 "UCONFIG_NO_COLLATION" \
-"UCONFIG_NO_FORMATTING" \
 "UCONFIG_NO_REGULAR_EXPRESSIONS" \
 "UCONFIG_NO_LEGACY_CONVERSION" \
 "CONFIG_NO_CONVERSION" \
@@ -63,6 +64,7 @@ defines_config_set_0=( \
 "U_HAVE_NL_LANGINFO_CODESET" \
 "UCONFIG_NO_TRANSLITERATION" \
 "U_USING_ICU_NAMESPACE" \
+"UCONFIG_NO_FORMATTING" \
 )
 
 #will set value to 1

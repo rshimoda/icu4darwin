@@ -22,6 +22,16 @@ else
     export ICU_DATA_FILTER_FILE="${FILTER}"
 fi
 
+if [ $DEVICE_ARCH == 'arm64' ]; then
+# export CFLAGS="-${CFLAGS} -target arm64-apple-macos10.9"
+export CXXFLAGS="${CXXFLAGS} -target arm64-apple-macos10.9"
+export LDFLAGS="${LDFLAGS} -target arm64-apple-macos10.9"
+else
+# export CFLAGS="-${CFLAGS} -target x86_64-apple-macos10.9"
+export CXXFLAGS="${CXXFLAGS} -target x86_64-apple-macos10.9"
+export LDFLAGS="${LDFLAGS} -target x86_64-apple-macos10.9"
+fi
+
 sh ${ICU_SOURCE}/runConfigureICU MacOSX --prefix=${PLATFORM_PREFIX} ${CONFIG_PREFIX}
 
 make clean
@@ -30,7 +40,7 @@ make install
 
 cd ${MAC_INSTALL_DIR}
 
-combineICULibraries "." "RDICU4c"
+combineICULibraries "." "libRDICU4c"
 
 cd ${BASE_ICU_DIR}/mac
 
@@ -46,6 +56,9 @@ export CROSS_BUILT_DIR="build-arm64-macosx"
 fi
 
 mkdir -p "fat-lib-macosx"
-lipo -create -output "fat-lib-macosx/RDICU4c.a" "${MAC_INSTALL_DIR}/lib/RDICU4c.a" "${CROSS_BUILT_DIR}/lib/RDICU4c.a"
+lipo -create \
+ "${MAC_INSTALL_DIR}/lib/libRDICU4c.a" \
+ "${CROSS_BUILT_DIR}/lib/libRDICU4c.a" \
+ -output "fat-lib-macosx/libRDICU4c.a"
 
 cd ${BASE_ICU_DIR}
