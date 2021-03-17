@@ -1,6 +1,6 @@
 export ICU_VERSION_MAJOR="64"
 export ICU_VERSION_MINOR="2"
-export ICU_VERSION="${ICU_VERSION_MAJOR}-{ICU_VERSION_MINOR}"
+export ICU_VERSION="${ICU_VERSION_MAJOR}-${ICU_VERSION_MINOR}"
 
 #base directory
 export BASE_ICU_DIR="/Users/sergi/Developer/icu4darwin/"
