@@ -22,12 +22,14 @@ else
     export ICU_DATA_FILTER_FILE="${FILTER}"
 fi
 
+DEVICE_ARCH=`arch`
+
 if [ $DEVICE_ARCH == 'arm64' ]; then
-# export CFLAGS="-${CFLAGS} -target arm64-apple-macos10.9"
+export CFLAGS="${CFLAGS} -target arm64-apple-macos10.9"
 export CXXFLAGS="${CXXFLAGS} -target arm64-apple-macos10.9"
 export LDFLAGS="${LDFLAGS} -target arm64-apple-macos10.9"
 else
-# export CFLAGS="-${CFLAGS} -target x86_64-apple-macos10.9"
+export CFLAGS="${CFLAGS} -target x86_64-apple-macos10.9"
 export CXXFLAGS="${CXXFLAGS} -target x86_64-apple-macos10.9"
 export LDFLAGS="${LDFLAGS} -target x86_64-apple-macos10.9"
 fi
@@ -44,7 +46,6 @@ combineICULibraries "." "libRDICU4c"
 
 cd ${BASE_ICU_DIR}/mac
 
-DEVICE_ARCH=`arch`
 CROSS_BUILT_DIR=""
 
 if [ $DEVICE_ARCH == 'arm64' ]; then
