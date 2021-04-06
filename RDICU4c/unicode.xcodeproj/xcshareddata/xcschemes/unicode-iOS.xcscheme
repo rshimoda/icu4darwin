@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "56919D3F2601036C00E50C14"
-               BuildableName = "RDICU4c.framework"
-               BlueprintName = "RDICU4c-iOS"
-               ReferencedContainer = "container:RDICU4c.xcodeproj">
+               BuildableName = "unicode.framework"
+               BlueprintName = "unicode-iOS"
+               ReferencedContainer = "container:unicode.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -51,9 +51,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "56919D3F2601036C00E50C14"
-            BuildableName = "RDICU4c.framework"
-            BlueprintName = "RDICU4c-iOS"
-            ReferencedContainer = "container:RDICU4c.xcodeproj">
+            BuildableName = "unicode.framework"
+            BlueprintName = "unicode-iOS"
+            ReferencedContainer = "container:unicode.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </ProfileAction>
