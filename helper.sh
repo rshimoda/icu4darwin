@@ -48,7 +48,7 @@ fi
 ${ICU_SOURCE}/configure --host=${HOST} --with-cross-build=${PREBUILD} ${CONFIG_PREFIX}
 
 make clean
-make -j8
+make -j`sysctl -n hw.ncpu`
 # make install
 
 cd ..

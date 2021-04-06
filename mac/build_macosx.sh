@@ -37,7 +37,7 @@ fi
 sh ${ICU_SOURCE}/runConfigureICU MacOSX --prefix=${PLATFORM_PREFIX} ${CONFIG_PREFIX}
 
 make clean
-make -j8
+make -j`sysctl -n hw.ncpu`
 make install
 
 cd ${MAC_INSTALL_DIR}
