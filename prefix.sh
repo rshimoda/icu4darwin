@@ -31,7 +31,7 @@ export FILTER="${BASE_ICU_DIR}/filters.json"
 #====================================================================================
 #====================================================================================
 
-export CONFIG_PREFIX=" --enable-extras=yes \
+export CONFIG_PREFIX=" --enable-extras=no \
 --enable-tools=yes \
 --enable-icuio=yes \
 --enable-strict=no \
@@ -48,12 +48,8 @@ export CXXFLAGS="${CFLAGS} -std=c++11"
 
 #will set value to 1
 defines_config_set_1=( \
-"UCONFIG_NO_COLLATION" \
 "UCONFIG_NO_LEGACY_CONVERSION" \
 "UCONFIG_NO_BREAK_ITERATION" \
-"UCONFIG_NO_COLLATION" \
-"UCONFIG_NO_REGULAR_EXPRESSIONS" \
-"UCONFIG_NO_LEGACY_CONVERSION" \
 "CONFIG_NO_CONVERSION" \
 "U_DISABLE_RENAMING" \
 )
