@@ -21,23 +21,16 @@ TARGET=$4
 
 echo "-- Building ${ARCH} (host ${HOST}) on ${SDK} for ${TARGET}"
 
-DEVELOPER="$(xcode-select --print-path)"
-SDKROOT="$(xcodebuild -version -sdk ${SDK} | grep -E '^Path' | sed 's/Path: //')"
+SDKROOT=$(xcrun --sdk ${SDK} --show-sdk-path) 
 
 export BUILD_DIR="${PWD}/build-${ARCH}-${SDK}"
 
-ICU_FLAGS="-I${ICU_SOURCE}/common/ -I${ICU_SOURCE}/tools/tzcode/ "
-
 export ADDITION_FLAG="-DIOS_SYSTEM_FIX"
 
-export CXX="${DEVELOPER}/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++"
-export CC="${DEVELOPER}/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang"
-export CFLAGS="-isysroot ${SDKROOT} -I${SDKROOT}/usr/include/ -I./include/ $5${ICU_FLAGS} ${CFLAGS} -target ${TARGET} ${ADDITION_FLAG}"
-export CXXFLAGS="${CXXFLAGS} -stdlib=libc++ -isysroot ${SDKROOT} -I${SDKROOT}/usr/include/ -I./include/ -target ${TARGET} $5${ICU_FLAGS} ${ADDITION_FLAG}"
-export LDFLAGS="-stdlib=libc++ -L${SDKROOT}/usr/lib/ -isysroot ${SDKROOT} -Wl,-dead_strip $5-lstdc++ -target ${TARGET} ${ADDITION_FLAG}"
+export CFLAGS="-isysroot ${SDKROOT} ${CFLAGS} -target ${TARGET} ${ADDITION_FLAG}"
+export CXXFLAGS="-isysroot ${SDKROOT} ${CXXFLAGS} -stdlib=libc++ -target ${TARGET} ${ADDITION_FLAG}"
+export LDFLAGS="-isysroot ${SDKROOT} -stdlib=libc++ -Wl,-dead_strip -lstdc++ -target ${TARGET} ${ADDITION_FLAG}"
 
-echo "CXX: "$CXX
-echo "CC: "$CC
 echo "CFLAGS: "$CFLAGS
 echo "CXXFLAGS: "$CXXFLAGS
 echo "LDFLAGS: "$LDFLAGS
@@ -52,7 +45,7 @@ else
     export ICU_DATA_FILTER_FILE="${FILTER}"
 fi
 
-sh ${ICU_SOURCE}/configure --host=${HOST} --with-cross-build=${PREBUILD} ${CONFIG_PREFIX}
+${ICU_SOURCE}/configure --host=${HOST} --with-cross-build=${PREBUILD} ${CONFIG_PREFIX}
 
 make clean
 make -j8

@@ -43,8 +43,7 @@ export CONFIG_PREFIX=" --enable-extras=yes \
 --enable-dyload=no \
 --with-data-packaging=static"
 
-export CFLAGS="-O3 -D__STDC_INT64__ -fno-exceptions -fno-short-wchar -fno-short-enums"
-
+export CFLAGS="-O3 -fno-exceptions"
 export CXXFLAGS="${CFLAGS} -std=c++11"
 
 #will set value to 1
