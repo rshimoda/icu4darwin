@@ -63,7 +63,7 @@ initialWD=${PWD}
 cd $1/lib/
 
 echo "-- Generating static library $2"
-libtool -o $2.a libicudata.a libicui18n.a libicuio.a libicuuc.a
+libtool -o $2.a libicudata.a libicui18n.a libicuuc.a
 
 cd $initialWD
 
