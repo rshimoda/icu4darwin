@@ -13,18 +13,18 @@ echo "Building for iOS..."
 
 echo "-- Creating static XCFramework..."
 xcodebuild -create-xcframework \
- -library "mac/fat-lib-macosx/libRDICU4c.a" -headers "${MAC_INSTALL_DIR}/include" \
- -library "ios/fat-lib-iphoneos/libRDICU4c.a" -headers "${MAC_INSTALL_DIR}/include" \
- -library "ios/fat-lib-iphonesimulator/libRDICU4c.a" -headers "${MAC_INSTALL_DIR}/include" \
- -library "ios/fat-lib-macosx/libRDICU4c.a" -headers "${MAC_INSTALL_DIR}/include" \
- -output "XCFramework/Static/RDICU4c.xcframework"
+ -library "mac/fat-lib-macosx/libicu.a" -headers "${MAC_INSTALL_DIR}/include" \
+ -library "ios/fat-lib-iphoneos/libicu.a" -headers "${MAC_INSTALL_DIR}/include" \
+ -library "ios/fat-lib-iphonesimulator/libicu.a" -headers "${MAC_INSTALL_DIR}/include" \
+ -library "ios/fat-lib-macosx/libicu.a" -headers "${MAC_INSTALL_DIR}/include" \
+ -output "XCFramework/Static/icu.xcframework"
 
 ICU_FRAMEWORK_VERSION=${ICU_VERSION_MAJOR}.${ICU_VERSION_MINOR}
 ICU_FRAMEWORK_COMPATIBILITY_VERSION=${ICU_VERSION_MAJOR}.0
 
 echo "-- Building macOS framework"
 xcodebuild archive \
- -project RDICU4c/unicode.xcodeproj \
+ -project unicode/unicode.xcodeproj \
  -scheme unicode-macOS \
  -configuration Release \
  -arch arm64 \
@@ -35,7 +35,7 @@ xcodebuild archive \
 
 echo "-- Building iOS framework"
 xcodebuild archive \
- -project RDICU4c/unicode.xcodeproj \
+ -project unicode/unicode.xcodeproj \
  -scheme unicode-iOS \
  -configuration Release \
  -arch arm64 \
@@ -47,7 +47,7 @@ xcodebuild archive \
 
 echo "-- Building iOS Simulator framework"
 xcodebuild archive \
- -project RDICU4c/unicode.xcodeproj \
+ -project unicode/unicode.xcodeproj \
  -scheme unicode-iOS \
  -configuration Release \
  -arch arm64 \
@@ -58,7 +58,7 @@ xcodebuild archive \
 
 echo "-- Building Mac Catalyst framework"
 xcodebuild archive \
- -project RDICU4c/unicode.xcodeproj \
+ -project unicode/unicode.xcodeproj \
  -scheme unicode-iOS \
  -configuration Release \
  -arch x86_64 \
@@ -73,11 +73,13 @@ xcodebuild -create-xcframework \
  -framework "Archive/unicode-iphoneos.xcarchive/Products/Library/Frameworks/unicode.framework" \
  -framework "Archive/unicode-iphonesimulator.xcarchive/Products/Library/Frameworks/unicode.framework" \
  -framework "Archive/unicode-maccatalyst.xcarchive/Products/Library/Frameworks/unicode.framework" \
- -output "XCFramework/unicode.xcframework"
+ -output "XCFramework/icu.xcframework"
 
 echo "-- Compressing XCFramework..."
 cd XCFramework
-zip -ry RDICU4c.zip unicode.xcframework 
-cd ..
+zip -ry icu${ICU_VERSION_MAJOR}-${ICU_VERSION_MINOR}-darwin-xcframework-dynamic.zip icu.xcframework 
+cd Static
+zip -ry ../icu${ICU_VERSION_MAJOR}-${ICU_VERSION_MINOR}-darwin-xcframework-static.zip icu.xcframework 
+cd ../..
 
 echo "-- Done"

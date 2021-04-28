@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:/Users/bender/src/icu4darwin/RDICU4c/unicode.xcodeproj">
+      location = "self:/Users/bender/src/icu4darwin/icu/unicode.xcodeproj">
    </FileRef>
 </Workspace>

@@ -42,7 +42,7 @@ make install
 
 cd ${MAC_INSTALL_DIR}
 
-combineICULibraries "." "libRDICU4c"
+combineICULibraries "." "libicu"
 
 cd ${BASE_ICU_DIR}/mac
 
@@ -58,8 +58,8 @@ fi
 
 mkdir -p "fat-lib-macosx"
 lipo -create \
- "${MAC_INSTALL_DIR}/lib/libRDICU4c.a" \
- "${CROSS_BUILT_DIR}/lib/libRDICU4c.a" \
- -output "fat-lib-macosx/libRDICU4c.a"
+ "${MAC_INSTALL_DIR}/lib/libicu.a" \
+ "${CROSS_BUILT_DIR}/lib/libicu.a" \
+ -output "fat-lib-macosx/libicu.a"
 
 cd ${BASE_ICU_DIR}

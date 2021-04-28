@@ -9,11 +9,11 @@ echo "======================================"
 build "x86_64" "x86_64-apple-darwin" "macosx" "x86_64-apple-ios13.1-macabi"
 build "arm64" "aarch64-apple-darwin" "macosx" "arm64-apple-ios13.1-macabi"
 
-combineICULibraries "build-x86_64-macosx" "libRDICU4c"
-combineICULibraries "build-arm64-macosx" "libRDICU4c"
+combineICULibraries "build-x86_64-macosx" "libicu"
+combineICULibraries "build-arm64-macosx" "libicu"
 
 mkdir -p "fat-lib-macosx"
 lipo -create \
- "build-x86_64-macosx/lib/libRDICU4c.a" \
- "build-arm64-macosx/lib/libRDICU4c.a" \
- -output "fat-lib-macosx/libRDICU4c.a"
+ "build-x86_64-macosx/lib/libicu.a" \
+ "build-arm64-macosx/lib/libicu.a" \
+ -output "fat-lib-macosx/libicu.a"
