@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/sh
 
 source "prefix.sh"
 source "helper.sh"
@@ -9,8 +9,9 @@ echo "================================="
 
 cd $BASE_ICU_DIR/ios/
 
-sh build_iphoneos.sh
-sh build_iphonesimulator.sh
+./build_iphoneos.sh
+./build_iphonesimulator.sh
+./build_macosx.sh
 
 cd $BASE_ICU_DIR
 

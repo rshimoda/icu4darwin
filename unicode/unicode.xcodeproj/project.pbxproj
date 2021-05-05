@@ -1,0 +1,1670 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 52;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		562503942642D18200FA3B12 /* translit.h in Headers */ = {isa = PBXBuildFile; fileRef = 562502DC2642D18200FA3B12 /* translit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		562503952642D18200FA3B12 /* translit.h in Headers */ = {isa = PBXBuildFile; fileRef = 562502DC2642D18200FA3B12 /* translit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		562503962642D18200FA3B12 /* utf_old.h in Headers */ = {isa = PBXBuildFile; fileRef = 562502DD2642D18200FA3B12 /* utf_old.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		562503972642D18200FA3B12 /* utf_old.h in Headers */ = {isa = PBXBuildFile; fileRef = 562502DD2642D18200FA3B12 /* utf_old.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		562503982642D18200FA3B12 /* ucsdet.h in Headers */ = {isa = PBXBuildFile; fileRef = 562502DE2642D18200FA3B12 /* ucsdet.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		562503992642D18200FA3B12 /* ucsdet.h in Headers */ = {isa = PBXBuildFile; fileRef = 562502DE2642D18200FA3B12 /* ucsdet.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5625039A2642D18200FA3B12 /* tzfmt.h in Headers */ = {isa = PBXBuildFile; fileRef = 562502DF2642D18200FA3B12 /* tzfmt.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5625039B2642D18200FA3B12 /* tzfmt.h in Headers */ = {isa = PBXBuildFile; fileRef = 562502DF2642D18200FA3B12 /* tzfmt.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5625039C2642D18200FA3B12 /* ubrk.h in Headers */ = {isa = PBXBuildFile; fileRef = 562502E02642D18200FA3B12 /* ubrk.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5625039D2642D18200FA3B12 /* ubrk.h in Headers */ = {isa = PBXBuildFile; fileRef = 562502E02642D18200FA3B12 /* ubrk.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5625039E2642D18200FA3B12 /* ufieldpositer.h in Headers */ = {isa = PBXBuildFile; fileRef = 562502E12642D18200FA3B12 /* ufieldpositer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5625039F2642D18200FA3B12 /* ufieldpositer.h in Headers */ = {isa = PBXBuildFile; fileRef = 562502E12642D18200FA3B12 /* ufieldpositer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		562503A02642D18200FA3B12 /* stringpiece.h in Headers */ = {isa = PBXBuildFile; fileRef = 562502E22642D18200FA3B12 /* stringpiece.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		562503A12642D18200FA3B12 /* stringpiece.h in Headers */ = {isa = PBXBuildFile; fileRef = 562502E22642D18200FA3B12 /* stringpiece.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		562503A22642D18200FA3B12 /* ucat.h in Headers */ = {isa = PBXBuildFile; fileRef = 562502E32642D18200FA3B12 /* ucat.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		562503A32642D18200FA3B12 /* ucat.h in Headers */ = {isa = PBXBuildFile; fileRef = 562502E32642D18200FA3B12 /* ucat.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		562503A42642D18200FA3B12 /* tblcoll.h in Headers */ = {isa = PBXBuildFile; fileRef = 562502E42642D18200FA3B12 /* tblcoll.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		562503A52642D18200FA3B12 /* tblcoll.h in Headers */ = {isa = PBXBuildFile; fileRef = 562502E42642D18200FA3B12 /* tblcoll.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		562503A62642D18200FA3B12 /* stringoptions.h in Headers */ = {isa = PBXBuildFile; fileRef = 562502E52642D18200FA3B12 /* stringoptions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		562503A72642D18200FA3B12 /* stringoptions.h in Headers */ = {isa = PBXBuildFile; fileRef = 562502E52642D18200FA3B12 /* stringoptions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		562503A82642D18200FA3B12 /* dtfmtsym.h in Headers */ = {isa = PBXBuildFile; fileRef = 562502E62642D18200FA3B12 /* dtfmtsym.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		562503A92642D18200FA3B12 /* dtfmtsym.h in Headers */ = {isa = PBXBuildFile; fileRef = 562502E62642D18200FA3B12 /* dtfmtsym.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		562503AA2642D18200FA3B12 /* unirepl.h in Headers */ = {isa = PBXBuildFile; fileRef = 562502E72642D18200FA3B12 /* unirepl.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		562503AB2642D18200FA3B12 /* unirepl.h in Headers */ = {isa = PBXBuildFile; fileRef = 562502E72642D18200FA3B12 /* unirepl.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		562503AC2642D18200FA3B12 /* ptypes.h in Headers */ = {isa = PBXBuildFile; fileRef = 562502E82642D18200FA3B12 /* ptypes.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		562503AD2642D18200FA3B12 /* ptypes.h in Headers */ = {isa = PBXBuildFile; fileRef = 562502E82642D18200FA3B12 /* ptypes.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		562503AE2642D18200FA3B12 /* fmtable.h in Headers */ = {isa = PBXBuildFile; fileRef = 562502E92642D18200FA3B12 /* fmtable.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		562503AF2642D18200FA3B12 /* fmtable.h in Headers */ = {isa = PBXBuildFile; fileRef = 562502E92642D18200FA3B12 /* fmtable.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		562503B02642D18200FA3B12 /* dtitvfmt.h in Headers */ = {isa = PBXBuildFile; fileRef = 562502EA2642D18200FA3B12 /* dtitvfmt.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		562503B12642D18200FA3B12 /* dtitvfmt.h in Headers */ = {isa = PBXBuildFile; fileRef = 562502EA2642D18200FA3B12 /* dtitvfmt.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		562503B22642D18200FA3B12 /* choicfmt.h in Headers */ = {isa = PBXBuildFile; fileRef = 562502EB2642D18200FA3B12 /* choicfmt.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		562503B32642D18200FA3B12 /* choicfmt.h in Headers */ = {isa = PBXBuildFile; fileRef = 562502EB2642D18200FA3B12 /* choicfmt.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		562503B42642D18200FA3B12 /* numberrangeformatter.h in Headers */ = {isa = PBXBuildFile; fileRef = 562502EC2642D18200FA3B12 /* numberrangeformatter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		562503B52642D18200FA3B12 /* numberrangeformatter.h in Headers */ = {isa = PBXBuildFile; fileRef = 562502EC2642D18200FA3B12 /* numberrangeformatter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		562503B62642D18200FA3B12 /* usetiter.h in Headers */ = {isa = PBXBuildFile; fileRef = 562502ED2642D18200FA3B12 /* usetiter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		562503B72642D18200FA3B12 /* usetiter.h in Headers */ = {isa = PBXBuildFile; fileRef = 562502ED2642D18200FA3B12 /* usetiter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		562503B82642D18200FA3B12 /* errorcode.h in Headers */ = {isa = PBXBuildFile; fileRef = 562502EE2642D18200FA3B12 /* errorcode.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		562503B92642D18200FA3B12 /* errorcode.h in Headers */ = {isa = PBXBuildFile; fileRef = 562502EE2642D18200FA3B12 /* errorcode.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		562503BA2642D18200FA3B12 /* tznames.h in Headers */ = {isa = PBXBuildFile; fileRef = 562502EF2642D18200FA3B12 /* tznames.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		562503BB2642D18200FA3B12 /* tznames.h in Headers */ = {isa = PBXBuildFile; fileRef = 562502EF2642D18200FA3B12 /* tznames.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		562503BC2642D18200FA3B12 /* dtintrv.h in Headers */ = {isa = PBXBuildFile; fileRef = 562502F02642D18200FA3B12 /* dtintrv.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		562503BD2642D18200FA3B12 /* dtintrv.h in Headers */ = {isa = PBXBuildFile; fileRef = 562502F02642D18200FA3B12 /* dtintrv.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		562503BE2642D18200FA3B12 /* ucurr.h in Headers */ = {isa = PBXBuildFile; fileRef = 562502F12642D18200FA3B12 /* ucurr.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		562503BF2642D18200FA3B12 /* ucurr.h in Headers */ = {isa = PBXBuildFile; fileRef = 562502F12642D18200FA3B12 /* ucurr.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		562503C02642D18200FA3B12 /* icuplug.h in Headers */ = {isa = PBXBuildFile; fileRef = 562502F22642D18200FA3B12 /* icuplug.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		562503C12642D18300FA3B12 /* icuplug.h in Headers */ = {isa = PBXBuildFile; fileRef = 562502F22642D18200FA3B12 /* icuplug.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		562503C22642D18300FA3B12 /* uregion.h in Headers */ = {isa = PBXBuildFile; fileRef = 562502F32642D18200FA3B12 /* uregion.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		562503C32642D18300FA3B12 /* uregion.h in Headers */ = {isa = PBXBuildFile; fileRef = 562502F32642D18200FA3B12 /* uregion.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		562503C42642D18300FA3B12 /* utext.h in Headers */ = {isa = PBXBuildFile; fileRef = 562502F42642D18200FA3B12 /* utext.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		562503C52642D18300FA3B12 /* utext.h in Headers */ = {isa = PBXBuildFile; fileRef = 562502F42642D18200FA3B12 /* utext.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		562503C62642D18300FA3B12 /* edits.h in Headers */ = {isa = PBXBuildFile; fileRef = 562502F52642D18200FA3B12 /* edits.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		562503C72642D18300FA3B12 /* edits.h in Headers */ = {isa = PBXBuildFile; fileRef = 562502F52642D18200FA3B12 /* edits.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		562503C82642D18300FA3B12 /* parsepos.h in Headers */ = {isa = PBXBuildFile; fileRef = 562502F62642D18200FA3B12 /* parsepos.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		562503C92642D18300FA3B12 /* parsepos.h in Headers */ = {isa = PBXBuildFile; fileRef = 562502F62642D18200FA3B12 /* parsepos.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		562503CA2642D18300FA3B12 /* ucal.h in Headers */ = {isa = PBXBuildFile; fileRef = 562502F72642D18200FA3B12 /* ucal.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		562503CB2642D18300FA3B12 /* ucal.h in Headers */ = {isa = PBXBuildFile; fileRef = 562502F72642D18200FA3B12 /* ucal.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		562503CC2642D18300FA3B12 /* fpositer.h in Headers */ = {isa = PBXBuildFile; fileRef = 562502F82642D18200FA3B12 /* fpositer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		562503CD2642D18300FA3B12 /* fpositer.h in Headers */ = {isa = PBXBuildFile; fileRef = 562502F82642D18200FA3B12 /* fpositer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		562503CE2642D18300FA3B12 /* dtitvinf.h in Headers */ = {isa = PBXBuildFile; fileRef = 562502F92642D18200FA3B12 /* dtitvinf.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		562503CF2642D18300FA3B12 /* dtitvinf.h in Headers */ = {isa = PBXBuildFile; fileRef = 562502F92642D18200FA3B12 /* dtitvinf.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		562503D02642D18300FA3B12 /* rbnf.h in Headers */ = {isa = PBXBuildFile; fileRef = 562502FA2642D18200FA3B12 /* rbnf.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		562503D12642D18300FA3B12 /* rbnf.h in Headers */ = {isa = PBXBuildFile; fileRef = 562502FA2642D18200FA3B12 /* rbnf.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		562503D22642D18300FA3B12 /* udat.h in Headers */ = {isa = PBXBuildFile; fileRef = 562502FB2642D18200FA3B12 /* udat.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		562503D32642D18300FA3B12 /* udat.h in Headers */ = {isa = PBXBuildFile; fileRef = 562502FB2642D18200FA3B12 /* udat.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		562503D42642D18300FA3B12 /* urep.h in Headers */ = {isa = PBXBuildFile; fileRef = 562502FC2642D18200FA3B12 /* urep.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		562503D52642D18300FA3B12 /* urep.h in Headers */ = {isa = PBXBuildFile; fileRef = 562502FC2642D18200FA3B12 /* urep.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		562503D62642D18300FA3B12 /* utf32.h in Headers */ = {isa = PBXBuildFile; fileRef = 562502FD2642D18200FA3B12 /* utf32.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		562503D72642D18300FA3B12 /* utf32.h in Headers */ = {isa = PBXBuildFile; fileRef = 562502FD2642D18200FA3B12 /* utf32.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		562503D82642D18300FA3B12 /* vtzone.h in Headers */ = {isa = PBXBuildFile; fileRef = 562502FE2642D18200FA3B12 /* vtzone.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		562503D92642D18300FA3B12 /* vtzone.h in Headers */ = {isa = PBXBuildFile; fileRef = 562502FE2642D18200FA3B12 /* vtzone.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		562503DA2642D18300FA3B12 /* ustring.h in Headers */ = {isa = PBXBuildFile; fileRef = 562502FF2642D18200FA3B12 /* ustring.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		562503DB2642D18300FA3B12 /* ustring.h in Headers */ = {isa = PBXBuildFile; fileRef = 562502FF2642D18200FA3B12 /* ustring.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		562503DC2642D18300FA3B12 /* ubiditransform.h in Headers */ = {isa = PBXBuildFile; fileRef = 562503002642D18200FA3B12 /* ubiditransform.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		562503DD2642D18300FA3B12 /* ubiditransform.h in Headers */ = {isa = PBXBuildFile; fileRef = 562503002642D18200FA3B12 /* ubiditransform.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		562503DE2642D18300FA3B12 /* uenum.h in Headers */ = {isa = PBXBuildFile; fileRef = 562503012642D18200FA3B12 /* uenum.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		562503DF2642D18300FA3B12 /* uenum.h in Headers */ = {isa = PBXBuildFile; fileRef = 562503012642D18200FA3B12 /* uenum.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		562503E02642D18300FA3B12 /* umutablecptrie.h in Headers */ = {isa = PBXBuildFile; fileRef = 562503022642D18200FA3B12 /* umutablecptrie.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		562503E12642D18300FA3B12 /* umutablecptrie.h in Headers */ = {isa = PBXBuildFile; fileRef = 562503022642D18200FA3B12 /* umutablecptrie.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		562503E22642D18300FA3B12 /* appendable.h in Headers */ = {isa = PBXBuildFile; fileRef = 562503032642D18200FA3B12 /* appendable.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		562503E32642D18300FA3B12 /* appendable.h in Headers */ = {isa = PBXBuildFile; fileRef = 562503032642D18200FA3B12 /* appendable.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		562503E42642D18300FA3B12 /* usearch.h in Headers */ = {isa = PBXBuildFile; fileRef = 562503042642D18200FA3B12 /* usearch.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		562503E52642D18300FA3B12 /* usearch.h in Headers */ = {isa = PBXBuildFile; fileRef = 562503042642D18200FA3B12 /* usearch.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		562503E62642D18300FA3B12 /* numsys.h in Headers */ = {isa = PBXBuildFile; fileRef = 562503052642D18200FA3B12 /* numsys.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		562503E72642D18300FA3B12 /* numsys.h in Headers */ = {isa = PBXBuildFile; fileRef = 562503052642D18200FA3B12 /* numsys.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		562503E82642D18300FA3B12 /* timezone.h in Headers */ = {isa = PBXBuildFile; fileRef = 562503062642D18200FA3B12 /* timezone.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		562503E92642D18300FA3B12 /* timezone.h in Headers */ = {isa = PBXBuildFile; fileRef = 562503062642D18200FA3B12 /* timezone.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		562503EA2642D18300FA3B12 /* uset.h in Headers */ = {isa = PBXBuildFile; fileRef = 562503072642D18200FA3B12 /* uset.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		562503EB2642D18300FA3B12 /* uset.h in Headers */ = {isa = PBXBuildFile; fileRef = 562503072642D18200FA3B12 /* uset.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		562503EC2642D18300FA3B12 /* casemap.h in Headers */ = {isa = PBXBuildFile; fileRef = 562503082642D18200FA3B12 /* casemap.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		562503ED2642D18300FA3B12 /* casemap.h in Headers */ = {isa = PBXBuildFile; fileRef = 562503082642D18200FA3B12 /* casemap.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		562503EE2642D18300FA3B12 /* coleitr.h in Headers */ = {isa = PBXBuildFile; fileRef = 562503092642D18200FA3B12 /* coleitr.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		562503EF2642D18300FA3B12 /* coleitr.h in Headers */ = {isa = PBXBuildFile; fileRef = 562503092642D18200FA3B12 /* coleitr.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		562503F02642D18300FA3B12 /* schriter.h in Headers */ = {isa = PBXBuildFile; fileRef = 5625030A2642D18200FA3B12 /* schriter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		562503F12642D18300FA3B12 /* schriter.h in Headers */ = {isa = PBXBuildFile; fileRef = 5625030A2642D18200FA3B12 /* schriter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		562503F22642D18300FA3B12 /* msgfmt.h in Headers */ = {isa = PBXBuildFile; fileRef = 5625030B2642D18200FA3B12 /* msgfmt.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		562503F32642D18300FA3B12 /* msgfmt.h in Headers */ = {isa = PBXBuildFile; fileRef = 5625030B2642D18200FA3B12 /* msgfmt.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		562503F42642D18300FA3B12 /* fieldpos.h in Headers */ = {isa = PBXBuildFile; fileRef = 5625030C2642D18200FA3B12 /* fieldpos.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		562503F52642D18300FA3B12 /* fieldpos.h in Headers */ = {isa = PBXBuildFile; fileRef = 5625030C2642D18200FA3B12 /* fieldpos.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		562503F62642D18300FA3B12 /* simpletz.h in Headers */ = {isa = PBXBuildFile; fileRef = 5625030D2642D18200FA3B12 /* simpletz.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		562503F72642D18300FA3B12 /* simpletz.h in Headers */ = {isa = PBXBuildFile; fileRef = 5625030D2642D18200FA3B12 /* simpletz.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		562503F82642D18300FA3B12 /* ucpmap.h in Headers */ = {isa = PBXBuildFile; fileRef = 5625030E2642D18200FA3B12 /* ucpmap.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		562503F92642D18300FA3B12 /* ucpmap.h in Headers */ = {isa = PBXBuildFile; fileRef = 5625030E2642D18200FA3B12 /* ucpmap.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		562503FA2642D18300FA3B12 /* uldnames.h in Headers */ = {isa = PBXBuildFile; fileRef = 5625030F2642D18200FA3B12 /* uldnames.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		562503FB2642D18300FA3B12 /* uldnames.h in Headers */ = {isa = PBXBuildFile; fileRef = 5625030F2642D18200FA3B12 /* uldnames.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		562503FC2642D18300FA3B12 /* unumberformatter.h in Headers */ = {isa = PBXBuildFile; fileRef = 562503102642D18200FA3B12 /* unumberformatter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		562503FD2642D18300FA3B12 /* unumberformatter.h in Headers */ = {isa = PBXBuildFile; fileRef = 562503102642D18200FA3B12 /* unumberformatter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		562503FE2642D18300FA3B12 /* uiter.h in Headers */ = {isa = PBXBuildFile; fileRef = 562503112642D18200FA3B12 /* uiter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		562503FF2642D18300FA3B12 /* uiter.h in Headers */ = {isa = PBXBuildFile; fileRef = 562503112642D18200FA3B12 /* uiter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		562504002642D18300FA3B12 /* umsg.h in Headers */ = {isa = PBXBuildFile; fileRef = 562503122642D18200FA3B12 /* umsg.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		562504012642D18300FA3B12 /* umsg.h in Headers */ = {isa = PBXBuildFile; fileRef = 562503122642D18200FA3B12 /* umsg.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		562504022642D18300FA3B12 /* sortkey.h in Headers */ = {isa = PBXBuildFile; fileRef = 562503132642D18200FA3B12 /* sortkey.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		562504032642D18300FA3B12 /* sortkey.h in Headers */ = {isa = PBXBuildFile; fileRef = 562503132642D18200FA3B12 /* sortkey.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		562504042642D18300FA3B12 /* docmain.h in Headers */ = {isa = PBXBuildFile; fileRef = 562503142642D18200FA3B12 /* docmain.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		562504052642D18300FA3B12 /* docmain.h in Headers */ = {isa = PBXBuildFile; fileRef = 562503142642D18200FA3B12 /* docmain.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		562504062642D18300FA3B12 /* uniset.h in Headers */ = {isa = PBXBuildFile; fileRef = 562503152642D18200FA3B12 /* uniset.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		562504072642D18300FA3B12 /* uniset.h in Headers */ = {isa = PBXBuildFile; fileRef = 562503152642D18200FA3B12 /* uniset.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		562504082642D18300FA3B12 /* basictz.h in Headers */ = {isa = PBXBuildFile; fileRef = 562503162642D18200FA3B12 /* basictz.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		562504092642D18300FA3B12 /* basictz.h in Headers */ = {isa = PBXBuildFile; fileRef = 562503162642D18200FA3B12 /* basictz.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5625040A2642D18300FA3B12 /* udata.h in Headers */ = {isa = PBXBuildFile; fileRef = 562503172642D18200FA3B12 /* udata.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5625040B2642D18300FA3B12 /* udata.h in Headers */ = {isa = PBXBuildFile; fileRef = 562503172642D18200FA3B12 /* udata.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5625040C2642D18300FA3B12 /* stringtriebuilder.h in Headers */ = {isa = PBXBuildFile; fileRef = 562503182642D18200FA3B12 /* stringtriebuilder.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5625040D2642D18300FA3B12 /* stringtriebuilder.h in Headers */ = {isa = PBXBuildFile; fileRef = 562503182642D18200FA3B12 /* stringtriebuilder.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5625040E2642D18300FA3B12 /* chariter.h in Headers */ = {isa = PBXBuildFile; fileRef = 562503192642D18200FA3B12 /* chariter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5625040F2642D18300FA3B12 /* chariter.h in Headers */ = {isa = PBXBuildFile; fileRef = 562503192642D18200FA3B12 /* chariter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		562504102642D18300FA3B12 /* umisc.h in Headers */ = {isa = PBXBuildFile; fileRef = 5625031A2642D18200FA3B12 /* umisc.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		562504112642D18300FA3B12 /* umisc.h in Headers */ = {isa = PBXBuildFile; fileRef = 5625031A2642D18200FA3B12 /* umisc.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		562504122642D18300FA3B12 /* reldatefmt.h in Headers */ = {isa = PBXBuildFile; fileRef = 5625031B2642D18200FA3B12 /* reldatefmt.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		562504132642D18300FA3B12 /* reldatefmt.h in Headers */ = {isa = PBXBuildFile; fileRef = 5625031B2642D18200FA3B12 /* reldatefmt.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		562504142642D18300FA3B12 /* uloc.h in Headers */ = {isa = PBXBuildFile; fileRef = 5625031C2642D18200FA3B12 /* uloc.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		562504152642D18300FA3B12 /* uloc.h in Headers */ = {isa = PBXBuildFile; fileRef = 5625031C2642D18200FA3B12 /* uloc.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		562504162642D18300FA3B12 /* plurrule.h in Headers */ = {isa = PBXBuildFile; fileRef = 5625031D2642D18200FA3B12 /* plurrule.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		562504172642D18300FA3B12 /* plurrule.h in Headers */ = {isa = PBXBuildFile; fileRef = 5625031D2642D18200FA3B12 /* plurrule.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		562504182642D18300FA3B12 /* bytestriebuilder.h in Headers */ = {isa = PBXBuildFile; fileRef = 5625031E2642D18200FA3B12 /* bytestriebuilder.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		562504192642D18300FA3B12 /* bytestriebuilder.h in Headers */ = {isa = PBXBuildFile; fileRef = 5625031E2642D18200FA3B12 /* bytestriebuilder.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5625041A2642D18300FA3B12 /* measunit.h in Headers */ = {isa = PBXBuildFile; fileRef = 5625031F2642D18200FA3B12 /* measunit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5625041B2642D18300FA3B12 /* measunit.h in Headers */ = {isa = PBXBuildFile; fileRef = 5625031F2642D18200FA3B12 /* measunit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5625041C2642D18300FA3B12 /* utrace.h in Headers */ = {isa = PBXBuildFile; fileRef = 562503202642D18200FA3B12 /* utrace.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5625041D2642D18300FA3B12 /* utrace.h in Headers */ = {isa = PBXBuildFile; fileRef = 562503202642D18200FA3B12 /* utrace.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5625041E2642D18300FA3B12 /* locdspnm.h in Headers */ = {isa = PBXBuildFile; fileRef = 562503212642D18200FA3B12 /* locdspnm.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5625041F2642D18300FA3B12 /* locdspnm.h in Headers */ = {isa = PBXBuildFile; fileRef = 562503212642D18200FA3B12 /* locdspnm.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		562504202642D18300FA3B12 /* gregocal.h in Headers */ = {isa = PBXBuildFile; fileRef = 562503222642D18200FA3B12 /* gregocal.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		562504212642D18300FA3B12 /* gregocal.h in Headers */ = {isa = PBXBuildFile; fileRef = 562503222642D18200FA3B12 /* gregocal.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		562504222642D18300FA3B12 /* uchriter.h in Headers */ = {isa = PBXBuildFile; fileRef = 562503232642D18200FA3B12 /* uchriter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		562504232642D18300FA3B12 /* uchriter.h in Headers */ = {isa = PBXBuildFile; fileRef = 562503232642D18200FA3B12 /* uchriter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		562504242642D18300FA3B12 /* enumset.h in Headers */ = {isa = PBXBuildFile; fileRef = 562503242642D18200FA3B12 /* enumset.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		562504252642D18300FA3B12 /* enumset.h in Headers */ = {isa = PBXBuildFile; fileRef = 562503242642D18200FA3B12 /* enumset.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		562504262642D18300FA3B12 /* nounit.h in Headers */ = {isa = PBXBuildFile; fileRef = 562503252642D18200FA3B12 /* nounit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		562504272642D18300FA3B12 /* nounit.h in Headers */ = {isa = PBXBuildFile; fileRef = 562503252642D18200FA3B12 /* nounit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		562504282642D18300FA3B12 /* utf.h in Headers */ = {isa = PBXBuildFile; fileRef = 562503262642D18200FA3B12 /* utf.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		562504292642D18300FA3B12 /* utf.h in Headers */ = {isa = PBXBuildFile; fileRef = 562503262642D18200FA3B12 /* utf.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5625042A2642D18300FA3B12 /* measure.h in Headers */ = {isa = PBXBuildFile; fileRef = 562503272642D18200FA3B12 /* measure.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5625042B2642D18300FA3B12 /* measure.h in Headers */ = {isa = PBXBuildFile; fileRef = 562503272642D18200FA3B12 /* measure.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5625042C2642D18300FA3B12 /* tzrule.h in Headers */ = {isa = PBXBuildFile; fileRef = 562503282642D18200FA3B12 /* tzrule.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5625042D2642D18300FA3B12 /* tzrule.h in Headers */ = {isa = PBXBuildFile; fileRef = 562503282642D18200FA3B12 /* tzrule.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5625042E2642D18300FA3B12 /* strenum.h in Headers */ = {isa = PBXBuildFile; fileRef = 562503292642D18200FA3B12 /* strenum.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5625042F2642D18300FA3B12 /* strenum.h in Headers */ = {isa = PBXBuildFile; fileRef = 562503292642D18200FA3B12 /* strenum.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		562504302642D18300FA3B12 /* regex.h in Headers */ = {isa = PBXBuildFile; fileRef = 5625032A2642D18200FA3B12 /* regex.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		562504312642D18300FA3B12 /* regex.h in Headers */ = {isa = PBXBuildFile; fileRef = 5625032A2642D18200FA3B12 /* regex.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		562504322642D18300FA3B12 /* gender.h in Headers */ = {isa = PBXBuildFile; fileRef = 5625032B2642D18200FA3B12 /* gender.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		562504332642D18300FA3B12 /* gender.h in Headers */ = {isa = PBXBuildFile; fileRef = 5625032B2642D18200FA3B12 /* gender.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		562504342642D18300FA3B12 /* dcfmtsym.h in Headers */ = {isa = PBXBuildFile; fileRef = 5625032C2642D18200FA3B12 /* dcfmtsym.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		562504352642D18300FA3B12 /* dcfmtsym.h in Headers */ = {isa = PBXBuildFile; fileRef = 5625032C2642D18200FA3B12 /* dcfmtsym.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		562504362642D18300FA3B12 /* ucnv_err.h in Headers */ = {isa = PBXBuildFile; fileRef = 5625032D2642D18200FA3B12 /* ucnv_err.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		562504372642D18300FA3B12 /* ucnv_err.h in Headers */ = {isa = PBXBuildFile; fileRef = 5625032D2642D18200FA3B12 /* ucnv_err.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		562504382642D18300FA3B12 /* decimfmt.h in Headers */ = {isa = PBXBuildFile; fileRef = 5625032E2642D18200FA3B12 /* decimfmt.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		562504392642D18300FA3B12 /* decimfmt.h in Headers */ = {isa = PBXBuildFile; fileRef = 5625032E2642D18200FA3B12 /* decimfmt.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5625043A2642D18300FA3B12 /* bytestrie.h in Headers */ = {isa = PBXBuildFile; fileRef = 5625032F2642D18200FA3B12 /* bytestrie.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5625043B2642D18300FA3B12 /* bytestrie.h in Headers */ = {isa = PBXBuildFile; fileRef = 5625032F2642D18200FA3B12 /* bytestrie.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5625043C2642D18300FA3B12 /* udatpg.h in Headers */ = {isa = PBXBuildFile; fileRef = 562503302642D18200FA3B12 /* udatpg.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5625043D2642D18300FA3B12 /* udatpg.h in Headers */ = {isa = PBXBuildFile; fileRef = 562503302642D18200FA3B12 /* udatpg.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5625043E2642D18300FA3B12 /* listformatter.h in Headers */ = {isa = PBXBuildFile; fileRef = 562503312642D18200FA3B12 /* listformatter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5625043F2642D18300FA3B12 /* listformatter.h in Headers */ = {isa = PBXBuildFile; fileRef = 562503312642D18200FA3B12 /* listformatter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		562504402642D18300FA3B12 /* uobject.h in Headers */ = {isa = PBXBuildFile; fileRef = 562503322642D18200FA3B12 /* uobject.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		562504412642D18300FA3B12 /* uobject.h in Headers */ = {isa = PBXBuildFile; fileRef = 562503322642D18200FA3B12 /* uobject.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		562504422642D18300FA3B12 /* calendar.h in Headers */ = {isa = PBXBuildFile; fileRef = 562503332642D18200FA3B12 /* calendar.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		562504432642D18300FA3B12 /* calendar.h in Headers */ = {isa = PBXBuildFile; fileRef = 562503332642D18200FA3B12 /* calendar.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		562504442642D18300FA3B12 /* ures.h in Headers */ = {isa = PBXBuildFile; fileRef = 562503342642D18200FA3B12 /* ures.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		562504452642D18300FA3B12 /* ures.h in Headers */ = {isa = PBXBuildFile; fileRef = 562503342642D18200FA3B12 /* ures.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		562504462642D18300FA3B12 /* normlzr.h in Headers */ = {isa = PBXBuildFile; fileRef = 562503352642D18200FA3B12 /* normlzr.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		562504472642D18300FA3B12 /* normlzr.h in Headers */ = {isa = PBXBuildFile; fileRef = 562503352642D18200FA3B12 /* normlzr.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		562504482642D18300FA3B12 /* usprep.h in Headers */ = {isa = PBXBuildFile; fileRef = 562503362642D18200FA3B12 /* usprep.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		562504492642D18300FA3B12 /* usprep.h in Headers */ = {isa = PBXBuildFile; fileRef = 562503362642D18200FA3B12 /* usprep.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5625044A2642D18300FA3B12 /* urename.h in Headers */ = {isa = PBXBuildFile; fileRef = 562503372642D18200FA3B12 /* urename.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5625044B2642D18300FA3B12 /* urename.h in Headers */ = {isa = PBXBuildFile; fileRef = 562503372642D18200FA3B12 /* urename.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5625044C2642D18300FA3B12 /* caniter.h in Headers */ = {isa = PBXBuildFile; fileRef = 562503382642D18200FA3B12 /* caniter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5625044D2642D18300FA3B12 /* caniter.h in Headers */ = {isa = PBXBuildFile; fileRef = 562503382642D18200FA3B12 /* caniter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5625044E2642D18300FA3B12 /* ucol.h in Headers */ = {isa = PBXBuildFile; fileRef = 562503392642D18200FA3B12 /* ucol.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5625044F2642D18300FA3B12 /* ucol.h in Headers */ = {isa = PBXBuildFile; fileRef = 562503392642D18200FA3B12 /* ucol.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		562504502642D18300FA3B12 /* upluralrules.h in Headers */ = {isa = PBXBuildFile; fileRef = 5625033A2642D18200FA3B12 /* upluralrules.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		562504512642D18300FA3B12 /* upluralrules.h in Headers */ = {isa = PBXBuildFile; fileRef = 5625033A2642D18200FA3B12 /* upluralrules.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		562504522642D18300FA3B12 /* ucharstrie.h in Headers */ = {isa = PBXBuildFile; fileRef = 5625033B2642D18200FA3B12 /* ucharstrie.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		562504532642D18300FA3B12 /* ucharstrie.h in Headers */ = {isa = PBXBuildFile; fileRef = 5625033B2642D18200FA3B12 /* ucharstrie.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		562504542642D18300FA3B12 /* tmunit.h in Headers */ = {isa = PBXBuildFile; fileRef = 5625033C2642D18200FA3B12 /* tmunit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		562504552642D18300FA3B12 /* tmunit.h in Headers */ = {isa = PBXBuildFile; fileRef = 5625033C2642D18200FA3B12 /* tmunit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		562504562642D18300FA3B12 /* unistr.h in Headers */ = {isa = PBXBuildFile; fileRef = 5625033D2642D18200FA3B12 /* unistr.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		562504572642D18300FA3B12 /* unistr.h in Headers */ = {isa = PBXBuildFile; fileRef = 5625033D2642D18200FA3B12 /* unistr.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		562504582642D18300FA3B12 /* rbbi.h in Headers */ = {isa = PBXBuildFile; fileRef = 5625033E2642D18200FA3B12 /* rbbi.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		562504592642D18300FA3B12 /* rbbi.h in Headers */ = {isa = PBXBuildFile; fileRef = 5625033E2642D18200FA3B12 /* rbbi.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5625045A2642D18300FA3B12 /* ulocdata.h in Headers */ = {isa = PBXBuildFile; fileRef = 5625033F2642D18200FA3B12 /* ulocdata.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5625045B2642D18300FA3B12 /* ulocdata.h in Headers */ = {isa = PBXBuildFile; fileRef = 5625033F2642D18200FA3B12 /* ulocdata.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5625045C2642D18300FA3B12 /* idna.h in Headers */ = {isa = PBXBuildFile; fileRef = 562503402642D18200FA3B12 /* idna.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5625045D2642D18300FA3B12 /* idna.h in Headers */ = {isa = PBXBuildFile; fileRef = 562503402642D18200FA3B12 /* idna.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5625045E2642D18300FA3B12 /* unorm2.h in Headers */ = {isa = PBXBuildFile; fileRef = 562503412642D18200FA3B12 /* unorm2.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5625045F2642D18300FA3B12 /* unorm2.h in Headers */ = {isa = PBXBuildFile; fileRef = 562503412642D18200FA3B12 /* unorm2.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		562504602642D18300FA3B12 /* localebuilder.h in Headers */ = {isa = PBXBuildFile; fileRef = 562503422642D18200FA3B12 /* localebuilder.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		562504612642D18300FA3B12 /* localebuilder.h in Headers */ = {isa = PBXBuildFile; fileRef = 562503422642D18200FA3B12 /* localebuilder.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		562504622642D18300FA3B12 /* dtptngen.h in Headers */ = {isa = PBXBuildFile; fileRef = 562503432642D18200FA3B12 /* dtptngen.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		562504632642D18300FA3B12 /* dtptngen.h in Headers */ = {isa = PBXBuildFile; fileRef = 562503432642D18200FA3B12 /* dtptngen.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		562504642642D18300FA3B12 /* dbbi.h in Headers */ = {isa = PBXBuildFile; fileRef = 562503442642D18200FA3B12 /* dbbi.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		562504652642D18300FA3B12 /* dbbi.h in Headers */ = {isa = PBXBuildFile; fileRef = 562503442642D18200FA3B12 /* dbbi.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		562504662642D18300FA3B12 /* bytestream.h in Headers */ = {isa = PBXBuildFile; fileRef = 562503452642D18200FA3B12 /* bytestream.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		562504672642D18300FA3B12 /* bytestream.h in Headers */ = {isa = PBXBuildFile; fileRef = 562503452642D18200FA3B12 /* bytestream.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		562504682642D18300FA3B12 /* uversion.h in Headers */ = {isa = PBXBuildFile; fileRef = 562503462642D18200FA3B12 /* uversion.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		562504692642D18300FA3B12 /* uversion.h in Headers */ = {isa = PBXBuildFile; fileRef = 562503462642D18200FA3B12 /* uversion.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5625046A2642D18300FA3B12 /* messagepattern.h in Headers */ = {isa = PBXBuildFile; fileRef = 562503472642D18200FA3B12 /* messagepattern.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5625046B2642D18300FA3B12 /* messagepattern.h in Headers */ = {isa = PBXBuildFile; fileRef = 562503472642D18200FA3B12 /* messagepattern.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5625046C2642D18300FA3B12 /* uidna.h in Headers */ = {isa = PBXBuildFile; fileRef = 562503482642D18200FA3B12 /* uidna.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5625046D2642D18300FA3B12 /* uidna.h in Headers */ = {isa = PBXBuildFile; fileRef = 562503482642D18200FA3B12 /* uidna.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5625046E2642D18300FA3B12 /* filteredbrk.h in Headers */ = {isa = PBXBuildFile; fileRef = 562503492642D18200FA3B12 /* filteredbrk.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5625046F2642D18300FA3B12 /* filteredbrk.h in Headers */ = {isa = PBXBuildFile; fileRef = 562503492642D18200FA3B12 /* filteredbrk.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		562504702642D18300FA3B12 /* tmutamt.h in Headers */ = {isa = PBXBuildFile; fileRef = 5625034A2642D18200FA3B12 /* tmutamt.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		562504712642D18300FA3B12 /* tmutamt.h in Headers */ = {isa = PBXBuildFile; fileRef = 5625034A2642D18200FA3B12 /* tmutamt.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		562504722642D18300FA3B12 /* char16ptr.h in Headers */ = {isa = PBXBuildFile; fileRef = 5625034B2642D18200FA3B12 /* char16ptr.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		562504732642D18300FA3B12 /* char16ptr.h in Headers */ = {isa = PBXBuildFile; fileRef = 5625034B2642D18200FA3B12 /* char16ptr.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		562504742642D18300FA3B12 /* uformattedvalue.h in Headers */ = {isa = PBXBuildFile; fileRef = 5625034C2642D18200FA3B12 /* uformattedvalue.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		562504752642D18300FA3B12 /* uformattedvalue.h in Headers */ = {isa = PBXBuildFile; fileRef = 5625034C2642D18200FA3B12 /* uformattedvalue.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		562504762642D18300FA3B12 /* symtable.h in Headers */ = {isa = PBXBuildFile; fileRef = 5625034D2642D18200FA3B12 /* symtable.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		562504772642D18300FA3B12 /* symtable.h in Headers */ = {isa = PBXBuildFile; fileRef = 5625034D2642D18200FA3B12 /* symtable.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		562504782642D18300FA3B12 /* ucasemap.h in Headers */ = {isa = PBXBuildFile; fileRef = 5625034E2642D18200FA3B12 /* ucasemap.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		562504792642D18300FA3B12 /* ucasemap.h in Headers */ = {isa = PBXBuildFile; fileRef = 5625034E2642D18200FA3B12 /* ucasemap.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5625047A2642D18300FA3B12 /* ucoleitr.h in Headers */ = {isa = PBXBuildFile; fileRef = 5625034F2642D18200FA3B12 /* ucoleitr.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5625047B2642D18300FA3B12 /* ucoleitr.h in Headers */ = {isa = PBXBuildFile; fileRef = 5625034F2642D18200FA3B12 /* ucoleitr.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5625047C2642D18300FA3B12 /* compactdecimalformat.h in Headers */ = {isa = PBXBuildFile; fileRef = 562503502642D18200FA3B12 /* compactdecimalformat.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5625047D2642D18300FA3B12 /* compactdecimalformat.h in Headers */ = {isa = PBXBuildFile; fileRef = 562503502642D18200FA3B12 /* compactdecimalformat.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5625047E2642D18300FA3B12 /* unum.h in Headers */ = {isa = PBXBuildFile; fileRef = 562503512642D18200FA3B12 /* unum.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5625047F2642D18300FA3B12 /* unum.h in Headers */ = {isa = PBXBuildFile; fileRef = 562503512642D18200FA3B12 /* unum.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		562504802642D18300FA3B12 /* udisplaycontext.h in Headers */ = {isa = PBXBuildFile; fileRef = 562503522642D18200FA3B12 /* udisplaycontext.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		562504812642D18300FA3B12 /* udisplaycontext.h in Headers */ = {isa = PBXBuildFile; fileRef = 562503522642D18200FA3B12 /* udisplaycontext.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		562504822642D18300FA3B12 /* tztrans.h in Headers */ = {isa = PBXBuildFile; fileRef = 562503532642D18200FA3B12 /* tztrans.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		562504832642D18300FA3B12 /* tztrans.h in Headers */ = {isa = PBXBuildFile; fileRef = 562503532642D18200FA3B12 /* tztrans.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		562504842642D18300FA3B12 /* umachine.h in Headers */ = {isa = PBXBuildFile; fileRef = 562503542642D18200FA3B12 /* umachine.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		562504852642D18300FA3B12 /* umachine.h in Headers */ = {isa = PBXBuildFile; fileRef = 562503542642D18200FA3B12 /* umachine.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		562504862642D18300FA3B12 /* numberformatter.h in Headers */ = {isa = PBXBuildFile; fileRef = 562503552642D18200FA3B12 /* numberformatter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		562504872642D18300FA3B12 /* numberformatter.h in Headers */ = {isa = PBXBuildFile; fileRef = 562503552642D18200FA3B12 /* numberformatter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		562504882642D18300FA3B12 /* datefmt.h in Headers */ = {isa = PBXBuildFile; fileRef = 562503562642D18200FA3B12 /* datefmt.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		562504892642D18300FA3B12 /* datefmt.h in Headers */ = {isa = PBXBuildFile; fileRef = 562503562642D18200FA3B12 /* datefmt.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5625048A2642D18300FA3B12 /* utmscale.h in Headers */ = {isa = PBXBuildFile; fileRef = 562503572642D18200FA3B12 /* utmscale.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5625048B2642D18300FA3B12 /* utmscale.h in Headers */ = {isa = PBXBuildFile; fileRef = 562503572642D18200FA3B12 /* utmscale.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5625048C2642D18300FA3B12 /* coll.h in Headers */ = {isa = PBXBuildFile; fileRef = 562503582642D18200FA3B12 /* coll.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5625048D2642D18300FA3B12 /* coll.h in Headers */ = {isa = PBXBuildFile; fileRef = 562503582642D18200FA3B12 /* coll.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5625048E2642D18300FA3B12 /* currpinf.h in Headers */ = {isa = PBXBuildFile; fileRef = 562503592642D18200FA3B12 /* currpinf.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5625048F2642D18300FA3B12 /* currpinf.h in Headers */ = {isa = PBXBuildFile; fileRef = 562503592642D18200FA3B12 /* currpinf.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		562504902642D18300FA3B12 /* uregex.h in Headers */ = {isa = PBXBuildFile; fileRef = 5625035A2642D18200FA3B12 /* uregex.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		562504912642D18300FA3B12 /* uregex.h in Headers */ = {isa = PBXBuildFile; fileRef = 5625035A2642D18200FA3B12 /* uregex.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		562504922642D18300FA3B12 /* tmutfmt.h in Headers */ = {isa = PBXBuildFile; fileRef = 5625035B2642D18200FA3B12 /* tmutfmt.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		562504932642D18300FA3B12 /* tmutfmt.h in Headers */ = {isa = PBXBuildFile; fileRef = 5625035B2642D18200FA3B12 /* tmutfmt.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		562504942642D18300FA3B12 /* plurfmt.h in Headers */ = {isa = PBXBuildFile; fileRef = 5625035C2642D18200FA3B12 /* plurfmt.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		562504952642D18300FA3B12 /* plurfmt.h in Headers */ = {isa = PBXBuildFile; fileRef = 5625035C2642D18200FA3B12 /* plurfmt.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		562504962642D18300FA3B12 /* ustringtrie.h in Headers */ = {isa = PBXBuildFile; fileRef = 5625035D2642D18200FA3B12 /* ustringtrie.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		562504972642D18300FA3B12 /* ustringtrie.h in Headers */ = {isa = PBXBuildFile; fileRef = 5625035D2642D18200FA3B12 /* ustringtrie.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		562504982642D18300FA3B12 /* smpdtfmt.h in Headers */ = {isa = PBXBuildFile; fileRef = 5625035E2642D18200FA3B12 /* smpdtfmt.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		562504992642D18300FA3B12 /* smpdtfmt.h in Headers */ = {isa = PBXBuildFile; fileRef = 5625035E2642D18200FA3B12 /* smpdtfmt.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5625049A2642D18300FA3B12 /* ucptrie.h in Headers */ = {isa = PBXBuildFile; fileRef = 5625035F2642D18200FA3B12 /* ucptrie.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5625049B2642D18300FA3B12 /* ucptrie.h in Headers */ = {isa = PBXBuildFile; fileRef = 5625035F2642D18200FA3B12 /* ucptrie.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5625049C2642D18300FA3B12 /* icudataver.h in Headers */ = {isa = PBXBuildFile; fileRef = 562503602642D18200FA3B12 /* icudataver.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5625049D2642D18300FA3B12 /* icudataver.h in Headers */ = {isa = PBXBuildFile; fileRef = 562503602642D18200FA3B12 /* icudataver.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5625049E2642D18300FA3B12 /* uchar.h in Headers */ = {isa = PBXBuildFile; fileRef = 562503612642D18200FA3B12 /* uchar.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5625049F2642D18300FA3B12 /* uchar.h in Headers */ = {isa = PBXBuildFile; fileRef = 562503612642D18200FA3B12 /* uchar.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		562504A02642D18300FA3B12 /* unorm.h in Headers */ = {isa = PBXBuildFile; fileRef = 562503622642D18200FA3B12 /* unorm.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		562504A12642D18300FA3B12 /* unorm.h in Headers */ = {isa = PBXBuildFile; fileRef = 562503622642D18200FA3B12 /* unorm.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		562504A22642D18300FA3B12 /* ushape.h in Headers */ = {isa = PBXBuildFile; fileRef = 562503632642D18200FA3B12 /* ushape.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		562504A32642D18300FA3B12 /* ushape.h in Headers */ = {isa = PBXBuildFile; fileRef = 562503632642D18200FA3B12 /* ushape.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		562504A42642D18300FA3B12 /* unifunct.h in Headers */ = {isa = PBXBuildFile; fileRef = 562503642642D18200FA3B12 /* unifunct.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		562504A52642D18300FA3B12 /* unifunct.h in Headers */ = {isa = PBXBuildFile; fileRef = 562503642642D18200FA3B12 /* unifunct.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		562504A62642D18300FA3B12 /* ugender.h in Headers */ = {isa = PBXBuildFile; fileRef = 562503652642D18200FA3B12 /* ugender.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		562504A72642D18300FA3B12 /* ugender.h in Headers */ = {isa = PBXBuildFile; fileRef = 562503652642D18200FA3B12 /* ugender.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		562504A82642D18300FA3B12 /* selfmt.h in Headers */ = {isa = PBXBuildFile; fileRef = 562503662642D18200FA3B12 /* selfmt.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		562504A92642D18300FA3B12 /* selfmt.h in Headers */ = {isa = PBXBuildFile; fileRef = 562503662642D18200FA3B12 /* selfmt.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		562504AA2642D18300FA3B12 /* uformattable.h in Headers */ = {isa = PBXBuildFile; fileRef = 562503672642D18200FA3B12 /* uformattable.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		562504AB2642D18300FA3B12 /* uformattable.h in Headers */ = {isa = PBXBuildFile; fileRef = 562503672642D18200FA3B12 /* uformattable.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		562504AC2642D18300FA3B12 /* simpleformatter.h in Headers */ = {isa = PBXBuildFile; fileRef = 562503682642D18200FA3B12 /* simpleformatter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		562504AD2642D18300FA3B12 /* simpleformatter.h in Headers */ = {isa = PBXBuildFile; fileRef = 562503682642D18200FA3B12 /* simpleformatter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		562504AE2642D18300FA3B12 /* ucnv_cb.h in Headers */ = {isa = PBXBuildFile; fileRef = 562503692642D18200FA3B12 /* ucnv_cb.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		562504AF2642D18300FA3B12 /* ucnv_cb.h in Headers */ = {isa = PBXBuildFile; fileRef = 562503692642D18200FA3B12 /* ucnv_cb.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		562504B02642D18300FA3B12 /* curramt.h in Headers */ = {isa = PBXBuildFile; fileRef = 5625036A2642D18200FA3B12 /* curramt.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		562504B12642D18300FA3B12 /* curramt.h in Headers */ = {isa = PBXBuildFile; fileRef = 5625036A2642D18200FA3B12 /* curramt.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		562504B22642D18300FA3B12 /* locid.h in Headers */ = {isa = PBXBuildFile; fileRef = 5625036B2642D18200FA3B12 /* locid.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		562504B32642D18300FA3B12 /* locid.h in Headers */ = {isa = PBXBuildFile; fileRef = 5625036B2642D18200FA3B12 /* locid.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		562504B42642D18300FA3B12 /* udateintervalformat.h in Headers */ = {isa = PBXBuildFile; fileRef = 5625036C2642D18200FA3B12 /* udateintervalformat.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		562504B52642D18300FA3B12 /* udateintervalformat.h in Headers */ = {isa = PBXBuildFile; fileRef = 5625036C2642D18200FA3B12 /* udateintervalformat.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		562504B62642D18300FA3B12 /* resbund.h in Headers */ = {isa = PBXBuildFile; fileRef = 5625036D2642D18200FA3B12 /* resbund.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		562504B72642D18300FA3B12 /* resbund.h in Headers */ = {isa = PBXBuildFile; fileRef = 5625036D2642D18200FA3B12 /* resbund.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		562504B82642D18300FA3B12 /* ubidi.h in Headers */ = {isa = PBXBuildFile; fileRef = 5625036E2642D18200FA3B12 /* ubidi.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		562504B92642D18300FA3B12 /* ubidi.h in Headers */ = {isa = PBXBuildFile; fileRef = 5625036E2642D18200FA3B12 /* ubidi.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		562504BA2642D18300FA3B12 /* stsearch.h in Headers */ = {isa = PBXBuildFile; fileRef = 5625036F2642D18200FA3B12 /* stsearch.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		562504BB2642D18300FA3B12 /* stsearch.h in Headers */ = {isa = PBXBuildFile; fileRef = 5625036F2642D18200FA3B12 /* stsearch.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		562504BC2642D18300FA3B12 /* alphaindex.h in Headers */ = {isa = PBXBuildFile; fileRef = 562503702642D18200FA3B12 /* alphaindex.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		562504BD2642D18300FA3B12 /* alphaindex.h in Headers */ = {isa = PBXBuildFile; fileRef = 562503702642D18200FA3B12 /* alphaindex.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		562504BE2642D18300FA3B12 /* uvernum.h in Headers */ = {isa = PBXBuildFile; fileRef = 562503712642D18200FA3B12 /* uvernum.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		562504BF2642D18300FA3B12 /* uvernum.h in Headers */ = {isa = PBXBuildFile; fileRef = 562503712642D18200FA3B12 /* uvernum.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		562504C02642D18300FA3B12 /* unimatch.h in Headers */ = {isa = PBXBuildFile; fileRef = 562503722642D18200FA3B12 /* unimatch.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		562504C12642D18300FA3B12 /* unimatch.h in Headers */ = {isa = PBXBuildFile; fileRef = 562503722642D18200FA3B12 /* unimatch.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		562504C22642D18300FA3B12 /* rbtz.h in Headers */ = {isa = PBXBuildFile; fileRef = 562503732642D18200FA3B12 /* rbtz.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		562504C32642D18300FA3B12 /* rbtz.h in Headers */ = {isa = PBXBuildFile; fileRef = 562503732642D18200FA3B12 /* rbtz.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		562504C42642D18300FA3B12 /* ucnvsel.h in Headers */ = {isa = PBXBuildFile; fileRef = 562503742642D18200FA3B12 /* ucnvsel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		562504C52642D18300FA3B12 /* ucnvsel.h in Headers */ = {isa = PBXBuildFile; fileRef = 562503742642D18200FA3B12 /* ucnvsel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		562504C62642D18300FA3B12 /* uspoof.h in Headers */ = {isa = PBXBuildFile; fileRef = 562503752642D18200FA3B12 /* uspoof.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		562504C72642D18300FA3B12 /* uspoof.h in Headers */ = {isa = PBXBuildFile; fileRef = 562503752642D18200FA3B12 /* uspoof.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		562504C82642D18300FA3B12 /* region.h in Headers */ = {isa = PBXBuildFile; fileRef = 562503762642D18200FA3B12 /* region.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		562504C92642D18300FA3B12 /* region.h in Headers */ = {isa = PBXBuildFile; fileRef = 562503762642D18200FA3B12 /* region.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		562504CA2642D18300FA3B12 /* ureldatefmt.h in Headers */ = {isa = PBXBuildFile; fileRef = 562503772642D18200FA3B12 /* ureldatefmt.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		562504CB2642D18300FA3B12 /* ureldatefmt.h in Headers */ = {isa = PBXBuildFile; fileRef = 562503772642D18200FA3B12 /* ureldatefmt.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		562504CC2642D18300FA3B12 /* utrans.h in Headers */ = {isa = PBXBuildFile; fileRef = 562503782642D18200FA3B12 /* utrans.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		562504CD2642D18300FA3B12 /* utrans.h in Headers */ = {isa = PBXBuildFile; fileRef = 562503782642D18200FA3B12 /* utrans.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		562504CE2642D18300FA3B12 /* parseerr.h in Headers */ = {isa = PBXBuildFile; fileRef = 562503792642D18200FA3B12 /* parseerr.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		562504CF2642D18300FA3B12 /* parseerr.h in Headers */ = {isa = PBXBuildFile; fileRef = 562503792642D18200FA3B12 /* parseerr.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		562504D02642D18300FA3B12 /* putil.h in Headers */ = {isa = PBXBuildFile; fileRef = 5625037A2642D18200FA3B12 /* putil.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		562504D12642D18300FA3B12 /* putil.h in Headers */ = {isa = PBXBuildFile; fileRef = 5625037A2642D18200FA3B12 /* putil.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		562504D22642D18300FA3B12 /* format.h in Headers */ = {isa = PBXBuildFile; fileRef = 5625037B2642D18200FA3B12 /* format.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		562504D32642D18300FA3B12 /* format.h in Headers */ = {isa = PBXBuildFile; fileRef = 5625037B2642D18200FA3B12 /* format.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		562504D42642D18300FA3B12 /* scientificnumberformatter.h in Headers */ = {isa = PBXBuildFile; fileRef = 5625037C2642D18200FA3B12 /* scientificnumberformatter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		562504D52642D18300FA3B12 /* scientificnumberformatter.h in Headers */ = {isa = PBXBuildFile; fileRef = 5625037C2642D18200FA3B12 /* scientificnumberformatter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		562504D62642D18300FA3B12 /* normalizer2.h in Headers */ = {isa = PBXBuildFile; fileRef = 5625037D2642D18200FA3B12 /* normalizer2.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		562504D72642D18300FA3B12 /* normalizer2.h in Headers */ = {isa = PBXBuildFile; fileRef = 5625037D2642D18200FA3B12 /* normalizer2.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		562504D82642D18300FA3B12 /* dtrule.h in Headers */ = {isa = PBXBuildFile; fileRef = 5625037E2642D18200FA3B12 /* dtrule.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		562504D92642D18300FA3B12 /* dtrule.h in Headers */ = {isa = PBXBuildFile; fileRef = 5625037E2642D18200FA3B12 /* dtrule.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		562504DA2642D18300FA3B12 /* ucnv.h in Headers */ = {isa = PBXBuildFile; fileRef = 5625037F2642D18200FA3B12 /* ucnv.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		562504DB2642D18300FA3B12 /* ucnv.h in Headers */ = {isa = PBXBuildFile; fileRef = 5625037F2642D18200FA3B12 /* ucnv.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		562504DC2642D18300FA3B12 /* ucharstriebuilder.h in Headers */ = {isa = PBXBuildFile; fileRef = 562503802642D18200FA3B12 /* ucharstriebuilder.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		562504DD2642D18300FA3B12 /* ucharstriebuilder.h in Headers */ = {isa = PBXBuildFile; fileRef = 562503802642D18200FA3B12 /* ucharstriebuilder.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		562504DE2642D18300FA3B12 /* search.h in Headers */ = {isa = PBXBuildFile; fileRef = 562503812642D18200FA3B12 /* search.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		562504DF2642D18300FA3B12 /* search.h in Headers */ = {isa = PBXBuildFile; fileRef = 562503812642D18200FA3B12 /* search.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		562504E02642D18300FA3B12 /* unumsys.h in Headers */ = {isa = PBXBuildFile; fileRef = 562503822642D18200FA3B12 /* unumsys.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		562504E12642D18300FA3B12 /* unumsys.h in Headers */ = {isa = PBXBuildFile; fileRef = 562503822642D18200FA3B12 /* unumsys.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		562504E22642D18300FA3B12 /* uconfig.h in Headers */ = {isa = PBXBuildFile; fileRef = 562503832642D18200FA3B12 /* uconfig.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		562504E32642D18300FA3B12 /* uconfig.h in Headers */ = {isa = PBXBuildFile; fileRef = 562503832642D18200FA3B12 /* uconfig.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		562504E42642D18300FA3B12 /* utf16.h in Headers */ = {isa = PBXBuildFile; fileRef = 562503842642D18200FA3B12 /* utf16.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		562504E52642D18300FA3B12 /* utf16.h in Headers */ = {isa = PBXBuildFile; fileRef = 562503842642D18200FA3B12 /* utf16.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		562504E62642D18300FA3B12 /* brkiter.h in Headers */ = {isa = PBXBuildFile; fileRef = 562503852642D18200FA3B12 /* brkiter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		562504E72642D18300FA3B12 /* brkiter.h in Headers */ = {isa = PBXBuildFile; fileRef = 562503852642D18200FA3B12 /* brkiter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		562504E82642D18300FA3B12 /* formattedvalue.h in Headers */ = {isa = PBXBuildFile; fileRef = 562503862642D18200FA3B12 /* formattedvalue.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		562504E92642D18300FA3B12 /* formattedvalue.h in Headers */ = {isa = PBXBuildFile; fileRef = 562503862642D18200FA3B12 /* formattedvalue.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		562504EA2642D18300FA3B12 /* platform.h in Headers */ = {isa = PBXBuildFile; fileRef = 562503872642D18200FA3B12 /* platform.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		562504EB2642D18300FA3B12 /* platform.h in Headers */ = {isa = PBXBuildFile; fileRef = 562503872642D18200FA3B12 /* platform.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		562504EC2642D18300FA3B12 /* rep.h in Headers */ = {isa = PBXBuildFile; fileRef = 562503882642D18200FA3B12 /* rep.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		562504ED2642D18300FA3B12 /* rep.h in Headers */ = {isa = PBXBuildFile; fileRef = 562503882642D18200FA3B12 /* rep.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		562504EE2642D18300FA3B12 /* std_string.h in Headers */ = {isa = PBXBuildFile; fileRef = 562503892642D18200FA3B12 /* std_string.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		562504EF2642D18300FA3B12 /* std_string.h in Headers */ = {isa = PBXBuildFile; fileRef = 562503892642D18200FA3B12 /* std_string.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		562504F02642D18300FA3B12 /* utf8.h in Headers */ = {isa = PBXBuildFile; fileRef = 5625038A2642D18200FA3B12 /* utf8.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		562504F12642D18300FA3B12 /* utf8.h in Headers */ = {isa = PBXBuildFile; fileRef = 5625038A2642D18200FA3B12 /* utf8.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		562504F22642D18300FA3B12 /* localpointer.h in Headers */ = {isa = PBXBuildFile; fileRef = 5625038B2642D18200FA3B12 /* localpointer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		562504F32642D18300FA3B12 /* localpointer.h in Headers */ = {isa = PBXBuildFile; fileRef = 5625038B2642D18200FA3B12 /* localpointer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		562504F42642D18300FA3B12 /* uclean.h in Headers */ = {isa = PBXBuildFile; fileRef = 5625038C2642D18200FA3B12 /* uclean.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		562504F52642D18300FA3B12 /* uclean.h in Headers */ = {isa = PBXBuildFile; fileRef = 5625038C2642D18200FA3B12 /* uclean.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		562504F62642D18300FA3B12 /* uscript.h in Headers */ = {isa = PBXBuildFile; fileRef = 5625038D2642D18200FA3B12 /* uscript.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		562504F72642D18300FA3B12 /* uscript.h in Headers */ = {isa = PBXBuildFile; fileRef = 5625038D2642D18200FA3B12 /* uscript.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		562504F82642D18300FA3B12 /* numfmt.h in Headers */ = {isa = PBXBuildFile; fileRef = 5625038E2642D18200FA3B12 /* numfmt.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		562504F92642D18300FA3B12 /* numfmt.h in Headers */ = {isa = PBXBuildFile; fileRef = 5625038E2642D18200FA3B12 /* numfmt.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		562504FA2642D18300FA3B12 /* currunit.h in Headers */ = {isa = PBXBuildFile; fileRef = 5625038F2642D18200FA3B12 /* currunit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		562504FB2642D18300FA3B12 /* currunit.h in Headers */ = {isa = PBXBuildFile; fileRef = 5625038F2642D18200FA3B12 /* currunit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		562504FC2642D18300FA3B12 /* utypes.h in Headers */ = {isa = PBXBuildFile; fileRef = 562503902642D18200FA3B12 /* utypes.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		562504FD2642D18300FA3B12 /* utypes.h in Headers */ = {isa = PBXBuildFile; fileRef = 562503902642D18200FA3B12 /* utypes.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		562504FE2642D18300FA3B12 /* ulistformatter.h in Headers */ = {isa = PBXBuildFile; fileRef = 562503912642D18200FA3B12 /* ulistformatter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		562504FF2642D18300FA3B12 /* ulistformatter.h in Headers */ = {isa = PBXBuildFile; fileRef = 562503912642D18200FA3B12 /* ulistformatter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		562505002642D18300FA3B12 /* measfmt.h in Headers */ = {isa = PBXBuildFile; fileRef = 562503922642D18200FA3B12 /* measfmt.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		562505012642D18300FA3B12 /* measfmt.h in Headers */ = {isa = PBXBuildFile; fileRef = 562503922642D18200FA3B12 /* measfmt.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		562505022642D18300FA3B12 /* unifilt.h in Headers */ = {isa = PBXBuildFile; fileRef = 562503932642D18200FA3B12 /* unifilt.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		562505032642D18300FA3B12 /* unifilt.h in Headers */ = {isa = PBXBuildFile; fileRef = 562503932642D18200FA3B12 /* unifilt.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		56919BFD25FFCE6500E50C14 /* unicode.h in Headers */ = {isa = PBXBuildFile; fileRef = 56919BFB25FFCE6500E50C14 /* unicode.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		56919C0425FFCF9900E50C14 /* icu.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56919C0325FFCF9900E50C14 /* icu.xcframework */; };
+		56919D5426010D0200E50C14 /* unicode.h in Headers */ = {isa = PBXBuildFile; fileRef = 56919BFB25FFCE6500E50C14 /* unicode.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		56919D602601103400E50C14 /* icu.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56919C0325FFCF9900E50C14 /* icu.xcframework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		562502DC2642D18200FA3B12 /* translit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = translit.h; sourceTree = "<group>"; };
+		562502DD2642D18200FA3B12 /* utf_old.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = utf_old.h; sourceTree = "<group>"; };
+		562502DE2642D18200FA3B12 /* ucsdet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ucsdet.h; sourceTree = "<group>"; };
+		562502DF2642D18200FA3B12 /* tzfmt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tzfmt.h; sourceTree = "<group>"; };
+		562502E02642D18200FA3B12 /* ubrk.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ubrk.h; sourceTree = "<group>"; };
+		562502E12642D18200FA3B12 /* ufieldpositer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ufieldpositer.h; sourceTree = "<group>"; };
+		562502E22642D18200FA3B12 /* stringpiece.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = stringpiece.h; sourceTree = "<group>"; };
+		562502E32642D18200FA3B12 /* ucat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ucat.h; sourceTree = "<group>"; };
+		562502E42642D18200FA3B12 /* tblcoll.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tblcoll.h; sourceTree = "<group>"; };
+		562502E52642D18200FA3B12 /* stringoptions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = stringoptions.h; sourceTree = "<group>"; };
+		562502E62642D18200FA3B12 /* dtfmtsym.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dtfmtsym.h; sourceTree = "<group>"; };
+		562502E72642D18200FA3B12 /* unirepl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = unirepl.h; sourceTree = "<group>"; };
+		562502E82642D18200FA3B12 /* ptypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ptypes.h; sourceTree = "<group>"; };
+		562502E92642D18200FA3B12 /* fmtable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fmtable.h; sourceTree = "<group>"; };
+		562502EA2642D18200FA3B12 /* dtitvfmt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dtitvfmt.h; sourceTree = "<group>"; };
+		562502EB2642D18200FA3B12 /* choicfmt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = choicfmt.h; sourceTree = "<group>"; };
+		562502EC2642D18200FA3B12 /* numberrangeformatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = numberrangeformatter.h; sourceTree = "<group>"; };
+		562502ED2642D18200FA3B12 /* usetiter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = usetiter.h; sourceTree = "<group>"; };
+		562502EE2642D18200FA3B12 /* errorcode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = errorcode.h; sourceTree = "<group>"; };
+		562502EF2642D18200FA3B12 /* tznames.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tznames.h; sourceTree = "<group>"; };
+		562502F02642D18200FA3B12 /* dtintrv.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dtintrv.h; sourceTree = "<group>"; };
+		562502F12642D18200FA3B12 /* ucurr.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ucurr.h; sourceTree = "<group>"; };
+		562502F22642D18200FA3B12 /* icuplug.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = icuplug.h; sourceTree = "<group>"; };
+		562502F32642D18200FA3B12 /* uregion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = uregion.h; sourceTree = "<group>"; };
+		562502F42642D18200FA3B12 /* utext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = utext.h; sourceTree = "<group>"; };
+		562502F52642D18200FA3B12 /* edits.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = edits.h; sourceTree = "<group>"; };
+		562502F62642D18200FA3B12 /* parsepos.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = parsepos.h; sourceTree = "<group>"; };
+		562502F72642D18200FA3B12 /* ucal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ucal.h; sourceTree = "<group>"; };
+		562502F82642D18200FA3B12 /* fpositer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fpositer.h; sourceTree = "<group>"; };
+		562502F92642D18200FA3B12 /* dtitvinf.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dtitvinf.h; sourceTree = "<group>"; };
+		562502FA2642D18200FA3B12 /* rbnf.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = rbnf.h; sourceTree = "<group>"; };
+		562502FB2642D18200FA3B12 /* udat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = udat.h; sourceTree = "<group>"; };
+		562502FC2642D18200FA3B12 /* urep.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = urep.h; sourceTree = "<group>"; };
+		562502FD2642D18200FA3B12 /* utf32.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = utf32.h; sourceTree = "<group>"; };
+		562502FE2642D18200FA3B12 /* vtzone.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = vtzone.h; sourceTree = "<group>"; };
+		562502FF2642D18200FA3B12 /* ustring.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ustring.h; sourceTree = "<group>"; };
+		562503002642D18200FA3B12 /* ubiditransform.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ubiditransform.h; sourceTree = "<group>"; };
+		562503012642D18200FA3B12 /* uenum.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = uenum.h; sourceTree = "<group>"; };
+		562503022642D18200FA3B12 /* umutablecptrie.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = umutablecptrie.h; sourceTree = "<group>"; };
+		562503032642D18200FA3B12 /* appendable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = appendable.h; sourceTree = "<group>"; };
+		562503042642D18200FA3B12 /* usearch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = usearch.h; sourceTree = "<group>"; };
+		562503052642D18200FA3B12 /* numsys.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = numsys.h; sourceTree = "<group>"; };
+		562503062642D18200FA3B12 /* timezone.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = timezone.h; sourceTree = "<group>"; };
+		562503072642D18200FA3B12 /* uset.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = uset.h; sourceTree = "<group>"; };
+		562503082642D18200FA3B12 /* casemap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = casemap.h; sourceTree = "<group>"; };
+		562503092642D18200FA3B12 /* coleitr.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = coleitr.h; sourceTree = "<group>"; };
+		5625030A2642D18200FA3B12 /* schriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = schriter.h; sourceTree = "<group>"; };
+		5625030B2642D18200FA3B12 /* msgfmt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = msgfmt.h; sourceTree = "<group>"; };
+		5625030C2642D18200FA3B12 /* fieldpos.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fieldpos.h; sourceTree = "<group>"; };
+		5625030D2642D18200FA3B12 /* simpletz.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = simpletz.h; sourceTree = "<group>"; };
+		5625030E2642D18200FA3B12 /* ucpmap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ucpmap.h; sourceTree = "<group>"; };
+		5625030F2642D18200FA3B12 /* uldnames.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = uldnames.h; sourceTree = "<group>"; };
+		562503102642D18200FA3B12 /* unumberformatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = unumberformatter.h; sourceTree = "<group>"; };
+		562503112642D18200FA3B12 /* uiter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = uiter.h; sourceTree = "<group>"; };
+		562503122642D18200FA3B12 /* umsg.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = umsg.h; sourceTree = "<group>"; };
+		562503132642D18200FA3B12 /* sortkey.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sortkey.h; sourceTree = "<group>"; };
+		562503142642D18200FA3B12 /* docmain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = docmain.h; sourceTree = "<group>"; };
+		562503152642D18200FA3B12 /* uniset.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = uniset.h; sourceTree = "<group>"; };
+		562503162642D18200FA3B12 /* basictz.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = basictz.h; sourceTree = "<group>"; };
+		562503172642D18200FA3B12 /* udata.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = udata.h; sourceTree = "<group>"; };
+		562503182642D18200FA3B12 /* stringtriebuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = stringtriebuilder.h; sourceTree = "<group>"; };
+		562503192642D18200FA3B12 /* chariter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = chariter.h; sourceTree = "<group>"; };
+		5625031A2642D18200FA3B12 /* umisc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = umisc.h; sourceTree = "<group>"; };
+		5625031B2642D18200FA3B12 /* reldatefmt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = reldatefmt.h; sourceTree = "<group>"; };
+		5625031C2642D18200FA3B12 /* uloc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = uloc.h; sourceTree = "<group>"; };
+		5625031D2642D18200FA3B12 /* plurrule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = plurrule.h; sourceTree = "<group>"; };
+		5625031E2642D18200FA3B12 /* bytestriebuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = bytestriebuilder.h; sourceTree = "<group>"; };
+		5625031F2642D18200FA3B12 /* measunit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = measunit.h; sourceTree = "<group>"; };
+		562503202642D18200FA3B12 /* utrace.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = utrace.h; sourceTree = "<group>"; };
+		562503212642D18200FA3B12 /* locdspnm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = locdspnm.h; sourceTree = "<group>"; };
+		562503222642D18200FA3B12 /* gregocal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = gregocal.h; sourceTree = "<group>"; };
+		562503232642D18200FA3B12 /* uchriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = uchriter.h; sourceTree = "<group>"; };
+		562503242642D18200FA3B12 /* enumset.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = enumset.h; sourceTree = "<group>"; };
+		562503252642D18200FA3B12 /* nounit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = nounit.h; sourceTree = "<group>"; };
+		562503262642D18200FA3B12 /* utf.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = utf.h; sourceTree = "<group>"; };
+		562503272642D18200FA3B12 /* measure.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = measure.h; sourceTree = "<group>"; };
+		562503282642D18200FA3B12 /* tzrule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tzrule.h; sourceTree = "<group>"; };
+		562503292642D18200FA3B12 /* strenum.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = strenum.h; sourceTree = "<group>"; };
+		5625032A2642D18200FA3B12 /* regex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = regex.h; sourceTree = "<group>"; };
+		5625032B2642D18200FA3B12 /* gender.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = gender.h; sourceTree = "<group>"; };
+		5625032C2642D18200FA3B12 /* dcfmtsym.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dcfmtsym.h; sourceTree = "<group>"; };
+		5625032D2642D18200FA3B12 /* ucnv_err.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ucnv_err.h; sourceTree = "<group>"; };
+		5625032E2642D18200FA3B12 /* decimfmt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = decimfmt.h; sourceTree = "<group>"; };
+		5625032F2642D18200FA3B12 /* bytestrie.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = bytestrie.h; sourceTree = "<group>"; };
+		562503302642D18200FA3B12 /* udatpg.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = udatpg.h; sourceTree = "<group>"; };
+		562503312642D18200FA3B12 /* listformatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = listformatter.h; sourceTree = "<group>"; };
+		562503322642D18200FA3B12 /* uobject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = uobject.h; sourceTree = "<group>"; };
+		562503332642D18200FA3B12 /* calendar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = calendar.h; sourceTree = "<group>"; };
+		562503342642D18200FA3B12 /* ures.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ures.h; sourceTree = "<group>"; };
+		562503352642D18200FA3B12 /* normlzr.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = normlzr.h; sourceTree = "<group>"; };
+		562503362642D18200FA3B12 /* usprep.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = usprep.h; sourceTree = "<group>"; };
+		562503372642D18200FA3B12 /* urename.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = urename.h; sourceTree = "<group>"; };
+		562503382642D18200FA3B12 /* caniter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = caniter.h; sourceTree = "<group>"; };
+		562503392642D18200FA3B12 /* ucol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ucol.h; sourceTree = "<group>"; };
+		5625033A2642D18200FA3B12 /* upluralrules.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = upluralrules.h; sourceTree = "<group>"; };
+		5625033B2642D18200FA3B12 /* ucharstrie.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ucharstrie.h; sourceTree = "<group>"; };
+		5625033C2642D18200FA3B12 /* tmunit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tmunit.h; sourceTree = "<group>"; };
+		5625033D2642D18200FA3B12 /* unistr.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = unistr.h; sourceTree = "<group>"; };
+		5625033E2642D18200FA3B12 /* rbbi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = rbbi.h; sourceTree = "<group>"; };
+		5625033F2642D18200FA3B12 /* ulocdata.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ulocdata.h; sourceTree = "<group>"; };
+		562503402642D18200FA3B12 /* idna.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = idna.h; sourceTree = "<group>"; };
+		562503412642D18200FA3B12 /* unorm2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = unorm2.h; sourceTree = "<group>"; };
+		562503422642D18200FA3B12 /* localebuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = localebuilder.h; sourceTree = "<group>"; };
+		562503432642D18200FA3B12 /* dtptngen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dtptngen.h; sourceTree = "<group>"; };
+		562503442642D18200FA3B12 /* dbbi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dbbi.h; sourceTree = "<group>"; };
+		562503452642D18200FA3B12 /* bytestream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = bytestream.h; sourceTree = "<group>"; };
+		562503462642D18200FA3B12 /* uversion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = uversion.h; sourceTree = "<group>"; };
+		562503472642D18200FA3B12 /* messagepattern.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = messagepattern.h; sourceTree = "<group>"; };
+		562503482642D18200FA3B12 /* uidna.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = uidna.h; sourceTree = "<group>"; };
+		562503492642D18200FA3B12 /* filteredbrk.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = filteredbrk.h; sourceTree = "<group>"; };
+		5625034A2642D18200FA3B12 /* tmutamt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tmutamt.h; sourceTree = "<group>"; };
+		5625034B2642D18200FA3B12 /* char16ptr.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = char16ptr.h; sourceTree = "<group>"; };
+		5625034C2642D18200FA3B12 /* uformattedvalue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = uformattedvalue.h; sourceTree = "<group>"; };
+		5625034D2642D18200FA3B12 /* symtable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = symtable.h; sourceTree = "<group>"; };
+		5625034E2642D18200FA3B12 /* ucasemap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ucasemap.h; sourceTree = "<group>"; };
+		5625034F2642D18200FA3B12 /* ucoleitr.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ucoleitr.h; sourceTree = "<group>"; };
+		562503502642D18200FA3B12 /* compactdecimalformat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = compactdecimalformat.h; sourceTree = "<group>"; };
+		562503512642D18200FA3B12 /* unum.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = unum.h; sourceTree = "<group>"; };
+		562503522642D18200FA3B12 /* udisplaycontext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = udisplaycontext.h; sourceTree = "<group>"; };
+		562503532642D18200FA3B12 /* tztrans.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tztrans.h; sourceTree = "<group>"; };
+		562503542642D18200FA3B12 /* umachine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = umachine.h; sourceTree = "<group>"; };
+		562503552642D18200FA3B12 /* numberformatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = numberformatter.h; sourceTree = "<group>"; };
+		562503562642D18200FA3B12 /* datefmt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = datefmt.h; sourceTree = "<group>"; };
+		562503572642D18200FA3B12 /* utmscale.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = utmscale.h; sourceTree = "<group>"; };
+		562503582642D18200FA3B12 /* coll.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = coll.h; sourceTree = "<group>"; };
+		562503592642D18200FA3B12 /* currpinf.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = currpinf.h; sourceTree = "<group>"; };
+		5625035A2642D18200FA3B12 /* uregex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = uregex.h; sourceTree = "<group>"; };
+		5625035B2642D18200FA3B12 /* tmutfmt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tmutfmt.h; sourceTree = "<group>"; };
+		5625035C2642D18200FA3B12 /* plurfmt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = plurfmt.h; sourceTree = "<group>"; };
+		5625035D2642D18200FA3B12 /* ustringtrie.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ustringtrie.h; sourceTree = "<group>"; };
+		5625035E2642D18200FA3B12 /* smpdtfmt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = smpdtfmt.h; sourceTree = "<group>"; };
+		5625035F2642D18200FA3B12 /* ucptrie.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ucptrie.h; sourceTree = "<group>"; };
+		562503602642D18200FA3B12 /* icudataver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = icudataver.h; sourceTree = "<group>"; };
+		562503612642D18200FA3B12 /* uchar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = uchar.h; sourceTree = "<group>"; };
+		562503622642D18200FA3B12 /* unorm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = unorm.h; sourceTree = "<group>"; };
+		562503632642D18200FA3B12 /* ushape.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ushape.h; sourceTree = "<group>"; };
+		562503642642D18200FA3B12 /* unifunct.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = unifunct.h; sourceTree = "<group>"; };
+		562503652642D18200FA3B12 /* ugender.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ugender.h; sourceTree = "<group>"; };
+		562503662642D18200FA3B12 /* selfmt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = selfmt.h; sourceTree = "<group>"; };
+		562503672642D18200FA3B12 /* uformattable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = uformattable.h; sourceTree = "<group>"; };
+		562503682642D18200FA3B12 /* simpleformatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = simpleformatter.h; sourceTree = "<group>"; };
+		562503692642D18200FA3B12 /* ucnv_cb.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ucnv_cb.h; sourceTree = "<group>"; };
+		5625036A2642D18200FA3B12 /* curramt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = curramt.h; sourceTree = "<group>"; };
+		5625036B2642D18200FA3B12 /* locid.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = locid.h; sourceTree = "<group>"; };
+		5625036C2642D18200FA3B12 /* udateintervalformat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = udateintervalformat.h; sourceTree = "<group>"; };
+		5625036D2642D18200FA3B12 /* resbund.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = resbund.h; sourceTree = "<group>"; };
+		5625036E2642D18200FA3B12 /* ubidi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ubidi.h; sourceTree = "<group>"; };
+		5625036F2642D18200FA3B12 /* stsearch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = stsearch.h; sourceTree = "<group>"; };
+		562503702642D18200FA3B12 /* alphaindex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = alphaindex.h; sourceTree = "<group>"; };
+		562503712642D18200FA3B12 /* uvernum.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = uvernum.h; sourceTree = "<group>"; };
+		562503722642D18200FA3B12 /* unimatch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = unimatch.h; sourceTree = "<group>"; };
+		562503732642D18200FA3B12 /* rbtz.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = rbtz.h; sourceTree = "<group>"; };
+		562503742642D18200FA3B12 /* ucnvsel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ucnvsel.h; sourceTree = "<group>"; };
+		562503752642D18200FA3B12 /* uspoof.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = uspoof.h; sourceTree = "<group>"; };
+		562503762642D18200FA3B12 /* region.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = region.h; sourceTree = "<group>"; };
+		562503772642D18200FA3B12 /* ureldatefmt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ureldatefmt.h; sourceTree = "<group>"; };
+		562503782642D18200FA3B12 /* utrans.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = utrans.h; sourceTree = "<group>"; };
+		562503792642D18200FA3B12 /* parseerr.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = parseerr.h; sourceTree = "<group>"; };
+		5625037A2642D18200FA3B12 /* putil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = putil.h; sourceTree = "<group>"; };
+		5625037B2642D18200FA3B12 /* format.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = format.h; sourceTree = "<group>"; };
+		5625037C2642D18200FA3B12 /* scientificnumberformatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = scientificnumberformatter.h; sourceTree = "<group>"; };
+		5625037D2642D18200FA3B12 /* normalizer2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = normalizer2.h; sourceTree = "<group>"; };
+		5625037E2642D18200FA3B12 /* dtrule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dtrule.h; sourceTree = "<group>"; };
+		5625037F2642D18200FA3B12 /* ucnv.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ucnv.h; sourceTree = "<group>"; };
+		562503802642D18200FA3B12 /* ucharstriebuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ucharstriebuilder.h; sourceTree = "<group>"; };
+		562503812642D18200FA3B12 /* search.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = search.h; sourceTree = "<group>"; };
+		562503822642D18200FA3B12 /* unumsys.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = unumsys.h; sourceTree = "<group>"; };
+		562503832642D18200FA3B12 /* uconfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = uconfig.h; sourceTree = "<group>"; };
+		562503842642D18200FA3B12 /* utf16.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = utf16.h; sourceTree = "<group>"; };
+		562503852642D18200FA3B12 /* brkiter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = brkiter.h; sourceTree = "<group>"; };
+		562503862642D18200FA3B12 /* formattedvalue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = formattedvalue.h; sourceTree = "<group>"; };
+		562503872642D18200FA3B12 /* platform.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = platform.h; sourceTree = "<group>"; };
+		562503882642D18200FA3B12 /* rep.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = rep.h; sourceTree = "<group>"; };
+		562503892642D18200FA3B12 /* std_string.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = std_string.h; sourceTree = "<group>"; };
+		5625038A2642D18200FA3B12 /* utf8.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = utf8.h; sourceTree = "<group>"; };
+		5625038B2642D18200FA3B12 /* localpointer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = localpointer.h; sourceTree = "<group>"; };
+		5625038C2642D18200FA3B12 /* uclean.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = uclean.h; sourceTree = "<group>"; };
+		5625038D2642D18200FA3B12 /* uscript.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = uscript.h; sourceTree = "<group>"; };
+		5625038E2642D18200FA3B12 /* numfmt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = numfmt.h; sourceTree = "<group>"; };
+		5625038F2642D18200FA3B12 /* currunit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = currunit.h; sourceTree = "<group>"; };
+		562503902642D18200FA3B12 /* utypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = utypes.h; sourceTree = "<group>"; };
+		562503912642D18200FA3B12 /* ulistformatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ulistformatter.h; sourceTree = "<group>"; };
+		562503922642D18200FA3B12 /* measfmt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = measfmt.h; sourceTree = "<group>"; };
+		562503932642D18200FA3B12 /* unifilt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = unifilt.h; sourceTree = "<group>"; };
+		56919BF825FFCE6500E50C14 /* unicode.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = unicode.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		56919BFB25FFCE6500E50C14 /* unicode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = unicode.h; sourceTree = "<group>"; };
+		56919BFC25FFCE6500E50C14 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		56919C0325FFCF9900E50C14 /* icu.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = icu.xcframework; path = ../XCFramework/Static/icu.xcframework; sourceTree = "<group>"; };
+		56919D402601036C00E50C14 /* unicode.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = unicode.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		56919BF525FFCE6500E50C14 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56919C0425FFCF9900E50C14 /* icu.xcframework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		56919D3D2601036C00E50C14 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56919D602601103400E50C14 /* icu.xcframework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		562502DB2642D18200FA3B12 /* unicode */ = {
+			isa = PBXGroup;
+			children = (
+				562502DC2642D18200FA3B12 /* translit.h */,
+				562502DD2642D18200FA3B12 /* utf_old.h */,
+				562502DE2642D18200FA3B12 /* ucsdet.h */,
+				562502DF2642D18200FA3B12 /* tzfmt.h */,
+				562502E02642D18200FA3B12 /* ubrk.h */,
+				562502E12642D18200FA3B12 /* ufieldpositer.h */,
+				562502E22642D18200FA3B12 /* stringpiece.h */,
+				562502E32642D18200FA3B12 /* ucat.h */,
+				562502E42642D18200FA3B12 /* tblcoll.h */,
+				562502E52642D18200FA3B12 /* stringoptions.h */,
+				562502E62642D18200FA3B12 /* dtfmtsym.h */,
+				562502E72642D18200FA3B12 /* unirepl.h */,
+				562502E82642D18200FA3B12 /* ptypes.h */,
+				562502E92642D18200FA3B12 /* fmtable.h */,
+				562502EA2642D18200FA3B12 /* dtitvfmt.h */,
+				562502EB2642D18200FA3B12 /* choicfmt.h */,
+				562502EC2642D18200FA3B12 /* numberrangeformatter.h */,
+				562502ED2642D18200FA3B12 /* usetiter.h */,
+				562502EE2642D18200FA3B12 /* errorcode.h */,
+				562502EF2642D18200FA3B12 /* tznames.h */,
+				562502F02642D18200FA3B12 /* dtintrv.h */,
+				562502F12642D18200FA3B12 /* ucurr.h */,
+				562502F22642D18200FA3B12 /* icuplug.h */,
+				562502F32642D18200FA3B12 /* uregion.h */,
+				562502F42642D18200FA3B12 /* utext.h */,
+				562502F52642D18200FA3B12 /* edits.h */,
+				562502F62642D18200FA3B12 /* parsepos.h */,
+				562502F72642D18200FA3B12 /* ucal.h */,
+				562502F82642D18200FA3B12 /* fpositer.h */,
+				562502F92642D18200FA3B12 /* dtitvinf.h */,
+				562502FA2642D18200FA3B12 /* rbnf.h */,
+				562502FB2642D18200FA3B12 /* udat.h */,
+				562502FC2642D18200FA3B12 /* urep.h */,
+				562502FD2642D18200FA3B12 /* utf32.h */,
+				562502FE2642D18200FA3B12 /* vtzone.h */,
+				562502FF2642D18200FA3B12 /* ustring.h */,
+				562503002642D18200FA3B12 /* ubiditransform.h */,
+				562503012642D18200FA3B12 /* uenum.h */,
+				562503022642D18200FA3B12 /* umutablecptrie.h */,
+				562503032642D18200FA3B12 /* appendable.h */,
+				562503042642D18200FA3B12 /* usearch.h */,
+				562503052642D18200FA3B12 /* numsys.h */,
+				562503062642D18200FA3B12 /* timezone.h */,
+				562503072642D18200FA3B12 /* uset.h */,
+				562503082642D18200FA3B12 /* casemap.h */,
+				562503092642D18200FA3B12 /* coleitr.h */,
+				5625030A2642D18200FA3B12 /* schriter.h */,
+				5625030B2642D18200FA3B12 /* msgfmt.h */,
+				5625030C2642D18200FA3B12 /* fieldpos.h */,
+				5625030D2642D18200FA3B12 /* simpletz.h */,
+				5625030E2642D18200FA3B12 /* ucpmap.h */,
+				5625030F2642D18200FA3B12 /* uldnames.h */,
+				562503102642D18200FA3B12 /* unumberformatter.h */,
+				562503112642D18200FA3B12 /* uiter.h */,
+				562503122642D18200FA3B12 /* umsg.h */,
+				562503132642D18200FA3B12 /* sortkey.h */,
+				562503142642D18200FA3B12 /* docmain.h */,
+				562503152642D18200FA3B12 /* uniset.h */,
+				562503162642D18200FA3B12 /* basictz.h */,
+				562503172642D18200FA3B12 /* udata.h */,
+				562503182642D18200FA3B12 /* stringtriebuilder.h */,
+				562503192642D18200FA3B12 /* chariter.h */,
+				5625031A2642D18200FA3B12 /* umisc.h */,
+				5625031B2642D18200FA3B12 /* reldatefmt.h */,
+				5625031C2642D18200FA3B12 /* uloc.h */,
+				5625031D2642D18200FA3B12 /* plurrule.h */,
+				5625031E2642D18200FA3B12 /* bytestriebuilder.h */,
+				5625031F2642D18200FA3B12 /* measunit.h */,
+				562503202642D18200FA3B12 /* utrace.h */,
+				562503212642D18200FA3B12 /* locdspnm.h */,
+				562503222642D18200FA3B12 /* gregocal.h */,
+				562503232642D18200FA3B12 /* uchriter.h */,
+				562503242642D18200FA3B12 /* enumset.h */,
+				562503252642D18200FA3B12 /* nounit.h */,
+				562503262642D18200FA3B12 /* utf.h */,
+				562503272642D18200FA3B12 /* measure.h */,
+				562503282642D18200FA3B12 /* tzrule.h */,
+				562503292642D18200FA3B12 /* strenum.h */,
+				5625032A2642D18200FA3B12 /* regex.h */,
+				5625032B2642D18200FA3B12 /* gender.h */,
+				5625032C2642D18200FA3B12 /* dcfmtsym.h */,
+				5625032D2642D18200FA3B12 /* ucnv_err.h */,
+				5625032E2642D18200FA3B12 /* decimfmt.h */,
+				5625032F2642D18200FA3B12 /* bytestrie.h */,
+				562503302642D18200FA3B12 /* udatpg.h */,
+				562503312642D18200FA3B12 /* listformatter.h */,
+				562503322642D18200FA3B12 /* uobject.h */,
+				562503332642D18200FA3B12 /* calendar.h */,
+				562503342642D18200FA3B12 /* ures.h */,
+				562503352642D18200FA3B12 /* normlzr.h */,
+				562503362642D18200FA3B12 /* usprep.h */,
+				562503372642D18200FA3B12 /* urename.h */,
+				562503382642D18200FA3B12 /* caniter.h */,
+				562503392642D18200FA3B12 /* ucol.h */,
+				5625033A2642D18200FA3B12 /* upluralrules.h */,
+				5625033B2642D18200FA3B12 /* ucharstrie.h */,
+				5625033C2642D18200FA3B12 /* tmunit.h */,
+				5625033D2642D18200FA3B12 /* unistr.h */,
+				5625033E2642D18200FA3B12 /* rbbi.h */,
+				5625033F2642D18200FA3B12 /* ulocdata.h */,
+				562503402642D18200FA3B12 /* idna.h */,
+				562503412642D18200FA3B12 /* unorm2.h */,
+				562503422642D18200FA3B12 /* localebuilder.h */,
+				562503432642D18200FA3B12 /* dtptngen.h */,
+				562503442642D18200FA3B12 /* dbbi.h */,
+				562503452642D18200FA3B12 /* bytestream.h */,
+				562503462642D18200FA3B12 /* uversion.h */,
+				562503472642D18200FA3B12 /* messagepattern.h */,
+				562503482642D18200FA3B12 /* uidna.h */,
+				562503492642D18200FA3B12 /* filteredbrk.h */,
+				5625034A2642D18200FA3B12 /* tmutamt.h */,
+				5625034B2642D18200FA3B12 /* char16ptr.h */,
+				5625034C2642D18200FA3B12 /* uformattedvalue.h */,
+				5625034D2642D18200FA3B12 /* symtable.h */,
+				5625034E2642D18200FA3B12 /* ucasemap.h */,
+				5625034F2642D18200FA3B12 /* ucoleitr.h */,
+				562503502642D18200FA3B12 /* compactdecimalformat.h */,
+				562503512642D18200FA3B12 /* unum.h */,
+				562503522642D18200FA3B12 /* udisplaycontext.h */,
+				562503532642D18200FA3B12 /* tztrans.h */,
+				562503542642D18200FA3B12 /* umachine.h */,
+				562503552642D18200FA3B12 /* numberformatter.h */,
+				562503562642D18200FA3B12 /* datefmt.h */,
+				562503572642D18200FA3B12 /* utmscale.h */,
+				562503582642D18200FA3B12 /* coll.h */,
+				562503592642D18200FA3B12 /* currpinf.h */,
+				5625035A2642D18200FA3B12 /* uregex.h */,
+				5625035B2642D18200FA3B12 /* tmutfmt.h */,
+				5625035C2642D18200FA3B12 /* plurfmt.h */,
+				5625035D2642D18200FA3B12 /* ustringtrie.h */,
+				5625035E2642D18200FA3B12 /* smpdtfmt.h */,
+				5625035F2642D18200FA3B12 /* ucptrie.h */,
+				562503602642D18200FA3B12 /* icudataver.h */,
+				562503612642D18200FA3B12 /* uchar.h */,
+				562503622642D18200FA3B12 /* unorm.h */,
+				562503632642D18200FA3B12 /* ushape.h */,
+				562503642642D18200FA3B12 /* unifunct.h */,
+				562503652642D18200FA3B12 /* ugender.h */,
+				562503662642D18200FA3B12 /* selfmt.h */,
+				562503672642D18200FA3B12 /* uformattable.h */,
+				562503682642D18200FA3B12 /* simpleformatter.h */,
+				562503692642D18200FA3B12 /* ucnv_cb.h */,
+				5625036A2642D18200FA3B12 /* curramt.h */,
+				5625036B2642D18200FA3B12 /* locid.h */,
+				5625036C2642D18200FA3B12 /* udateintervalformat.h */,
+				5625036D2642D18200FA3B12 /* resbund.h */,
+				5625036E2642D18200FA3B12 /* ubidi.h */,
+				5625036F2642D18200FA3B12 /* stsearch.h */,
+				562503702642D18200FA3B12 /* alphaindex.h */,
+				562503712642D18200FA3B12 /* uvernum.h */,
+				562503722642D18200FA3B12 /* unimatch.h */,
+				562503732642D18200FA3B12 /* rbtz.h */,
+				562503742642D18200FA3B12 /* ucnvsel.h */,
+				562503752642D18200FA3B12 /* uspoof.h */,
+				562503762642D18200FA3B12 /* region.h */,
+				562503772642D18200FA3B12 /* ureldatefmt.h */,
+				562503782642D18200FA3B12 /* utrans.h */,
+				562503792642D18200FA3B12 /* parseerr.h */,
+				5625037A2642D18200FA3B12 /* putil.h */,
+				5625037B2642D18200FA3B12 /* format.h */,
+				5625037C2642D18200FA3B12 /* scientificnumberformatter.h */,
+				5625037D2642D18200FA3B12 /* normalizer2.h */,
+				5625037E2642D18200FA3B12 /* dtrule.h */,
+				5625037F2642D18200FA3B12 /* ucnv.h */,
+				562503802642D18200FA3B12 /* ucharstriebuilder.h */,
+				562503812642D18200FA3B12 /* search.h */,
+				562503822642D18200FA3B12 /* unumsys.h */,
+				562503832642D18200FA3B12 /* uconfig.h */,
+				562503842642D18200FA3B12 /* utf16.h */,
+				562503852642D18200FA3B12 /* brkiter.h */,
+				562503862642D18200FA3B12 /* formattedvalue.h */,
+				562503872642D18200FA3B12 /* platform.h */,
+				562503882642D18200FA3B12 /* rep.h */,
+				562503892642D18200FA3B12 /* std_string.h */,
+				5625038A2642D18200FA3B12 /* utf8.h */,
+				5625038B2642D18200FA3B12 /* localpointer.h */,
+				5625038C2642D18200FA3B12 /* uclean.h */,
+				5625038D2642D18200FA3B12 /* uscript.h */,
+				5625038E2642D18200FA3B12 /* numfmt.h */,
+				5625038F2642D18200FA3B12 /* currunit.h */,
+				562503902642D18200FA3B12 /* utypes.h */,
+				562503912642D18200FA3B12 /* ulistformatter.h */,
+				562503922642D18200FA3B12 /* measfmt.h */,
+				562503932642D18200FA3B12 /* unifilt.h */,
+			);
+			name = unicode;
+			path = "../../XCFramework/Static/icu.xcframework/macos-arm64_x86_64/Headers/unicode";
+			sourceTree = "<group>";
+		};
+		56919BEC25FFCE3800E50C14 = {
+			isa = PBXGroup;
+			children = (
+				56919BFA25FFCE6500E50C14 /* unicode */,
+				56919BF925FFCE6500E50C14 /* Products */,
+				56919C0225FFCF9800E50C14 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		56919BF925FFCE6500E50C14 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				56919BF825FFCE6500E50C14 /* unicode.framework */,
+				56919D402601036C00E50C14 /* unicode.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		56919BFA25FFCE6500E50C14 /* unicode */ = {
+			isa = PBXGroup;
+			children = (
+				562502DB2642D18200FA3B12 /* unicode */,
+				56919BFC25FFCE6500E50C14 /* Info.plist */,
+				56919BFB25FFCE6500E50C14 /* unicode.h */,
+			);
+			path = unicode;
+			sourceTree = "<group>";
+		};
+		56919C0225FFCF9800E50C14 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				56919C0325FFCF9900E50C14 /* icu.xcframework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		56919BF325FFCE6500E50C14 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				562503AE2642D18200FA3B12 /* fmtable.h in Headers */,
+				562504C42642D18300FA3B12 /* ucnvsel.h in Headers */,
+				562504382642D18300FA3B12 /* decimfmt.h in Headers */,
+				562504E02642D18300FA3B12 /* unumsys.h in Headers */,
+				562503FE2642D18300FA3B12 /* uiter.h in Headers */,
+				562504AA2642D18300FA3B12 /* uformattable.h in Headers */,
+				562503CA2642D18300FA3B12 /* ucal.h in Headers */,
+				562503DA2642D18300FA3B12 /* ustring.h in Headers */,
+				5625047C2642D18300FA3B12 /* compactdecimalformat.h in Headers */,
+				562504CA2642D18300FA3B12 /* ureldatefmt.h in Headers */,
+				562504B62642D18300FA3B12 /* resbund.h in Headers */,
+				562504A02642D18300FA3B12 /* unorm.h in Headers */,
+				562504C22642D18300FA3B12 /* rbtz.h in Headers */,
+				562503CC2642D18300FA3B12 /* fpositer.h in Headers */,
+				562504B82642D18300FA3B12 /* ubidi.h in Headers */,
+				562503E02642D18300FA3B12 /* umutablecptrie.h in Headers */,
+				562504282642D18300FA3B12 /* utf.h in Headers */,
+				562503A82642D18200FA3B12 /* dtfmtsym.h in Headers */,
+				562503D02642D18300FA3B12 /* rbnf.h in Headers */,
+				562504C62642D18300FA3B12 /* uspoof.h in Headers */,
+				562504002642D18300FA3B12 /* umsg.h in Headers */,
+				562504702642D18300FA3B12 /* tmutamt.h in Headers */,
+				562504EA2642D18300FA3B12 /* platform.h in Headers */,
+				562504062642D18300FA3B12 /* uniset.h in Headers */,
+				562504742642D18300FA3B12 /* uformattedvalue.h in Headers */,
+				5625040A2642D18300FA3B12 /* udata.h in Headers */,
+				562504A82642D18300FA3B12 /* selfmt.h in Headers */,
+				562503DE2642D18300FA3B12 /* uenum.h in Headers */,
+				5625045C2642D18300FA3B12 /* idna.h in Headers */,
+				562504422642D18300FA3B12 /* calendar.h in Headers */,
+				562504582642D18300FA3B12 /* rbbi.h in Headers */,
+				562504222642D18300FA3B12 /* uchriter.h in Headers */,
+				562503BA2642D18200FA3B12 /* tznames.h in Headers */,
+				562503D22642D18300FA3B12 /* udat.h in Headers */,
+				5625042C2642D18300FA3B12 /* tzrule.h in Headers */,
+				562503B82642D18200FA3B12 /* errorcode.h in Headers */,
+				5625040C2642D18300FA3B12 /* stringtriebuilder.h in Headers */,
+				5625044A2642D18300FA3B12 /* urename.h in Headers */,
+				562503E82642D18300FA3B12 /* timezone.h in Headers */,
+				562504782642D18300FA3B12 /* ucasemap.h in Headers */,
+				562504E42642D18300FA3B12 /* utf16.h in Headers */,
+				562504942642D18300FA3B12 /* plurfmt.h in Headers */,
+				562504082642D18300FA3B12 /* basictz.h in Headers */,
+				562503F42642D18300FA3B12 /* fieldpos.h in Headers */,
+				562504FC2642D18300FA3B12 /* utypes.h in Headers */,
+				562504642642D18300FA3B12 /* dbbi.h in Headers */,
+				5625042A2642D18300FA3B12 /* measure.h in Headers */,
+				562504482642D18300FA3B12 /* usprep.h in Headers */,
+				562504BC2642D18300FA3B12 /* alphaindex.h in Headers */,
+				562503B02642D18200FA3B12 /* dtitvfmt.h in Headers */,
+				562504202642D18300FA3B12 /* gregocal.h in Headers */,
+				5625047A2642D18300FA3B12 /* ucoleitr.h in Headers */,
+				562503AC2642D18200FA3B12 /* ptypes.h in Headers */,
+				562504D42642D18300FA3B12 /* scientificnumberformatter.h in Headers */,
+				5625044E2642D18300FA3B12 /* ucol.h in Headers */,
+				562504EC2642D18300FA3B12 /* rep.h in Headers */,
+				562503A02642D18200FA3B12 /* stringpiece.h in Headers */,
+				5625041C2642D18300FA3B12 /* utrace.h in Headers */,
+				562504B02642D18300FA3B12 /* curramt.h in Headers */,
+				562504D82642D18300FA3B12 /* dtrule.h in Headers */,
+				562504E82642D18300FA3B12 /* formattedvalue.h in Headers */,
+				5625049E2642D18300FA3B12 /* uchar.h in Headers */,
+				562504922642D18300FA3B12 /* tmutfmt.h in Headers */,
+				562504042642D18300FA3B12 /* docmain.h in Headers */,
+				5625047E2642D18300FA3B12 /* unum.h in Headers */,
+				562504BA2642D18300FA3B12 /* stsearch.h in Headers */,
+				562504322642D18300FA3B12 /* gender.h in Headers */,
+				562504562642D18300FA3B12 /* unistr.h in Headers */,
+				562504AC2642D18300FA3B12 /* simpleformatter.h in Headers */,
+				562503A22642D18200FA3B12 /* ucat.h in Headers */,
+				562504902642D18300FA3B12 /* uregex.h in Headers */,
+				562504842642D18300FA3B12 /* umachine.h in Headers */,
+				562503FA2642D18300FA3B12 /* uldnames.h in Headers */,
+				5625046A2642D18300FA3B12 /* messagepattern.h in Headers */,
+				562503C02642D18200FA3B12 /* icuplug.h in Headers */,
+				562503B42642D18200FA3B12 /* numberrangeformatter.h in Headers */,
+				562504162642D18300FA3B12 /* plurrule.h in Headers */,
+				562504F22642D18300FA3B12 /* localpointer.h in Headers */,
+				562504F82642D18300FA3B12 /* numfmt.h in Headers */,
+				562504882642D18300FA3B12 /* datefmt.h in Headers */,
+				562504BE2642D18300FA3B12 /* uvernum.h in Headers */,
+				562504C82642D18300FA3B12 /* region.h in Headers */,
+				5625049C2642D18300FA3B12 /* icudataver.h in Headers */,
+				562504762642D18300FA3B12 /* symtable.h in Headers */,
+				562504D62642D18300FA3B12 /* normalizer2.h in Headers */,
+				562503962642D18200FA3B12 /* utf_old.h in Headers */,
+				562504FE2642D18300FA3B12 /* ulistformatter.h in Headers */,
+				562504602642D18300FA3B12 /* localebuilder.h in Headers */,
+				562503A62642D18200FA3B12 /* stringoptions.h in Headers */,
+				562504142642D18300FA3B12 /* uloc.h in Headers */,
+				5625045A2642D18300FA3B12 /* ulocdata.h in Headers */,
+				562504462642D18300FA3B12 /* normlzr.h in Headers */,
+				562504722642D18300FA3B12 /* char16ptr.h in Headers */,
+				562503C62642D18300FA3B12 /* edits.h in Headers */,
+				5625046E2642D18300FA3B12 /* filteredbrk.h in Headers */,
+				562504022642D18300FA3B12 /* sortkey.h in Headers */,
+				562503B62642D18200FA3B12 /* usetiter.h in Headers */,
+				562504302642D18300FA3B12 /* regex.h in Headers */,
+				562503A42642D18200FA3B12 /* tblcoll.h in Headers */,
+				562504D22642D18300FA3B12 /* format.h in Headers */,
+				562504442642D18300FA3B12 /* ures.h in Headers */,
+				562503D62642D18300FA3B12 /* utf32.h in Headers */,
+				5625046C2642D18300FA3B12 /* uidna.h in Headers */,
+				5625042E2642D18300FA3B12 /* strenum.h in Headers */,
+				562503FC2642D18300FA3B12 /* unumberformatter.h in Headers */,
+				562503BE2642D18200FA3B12 /* ucurr.h in Headers */,
+				562503F22642D18300FA3B12 /* msgfmt.h in Headers */,
+				562503E62642D18300FA3B12 /* numsys.h in Headers */,
+				562503E22642D18300FA3B12 /* appendable.h in Headers */,
+				562504622642D18300FA3B12 /* dtptngen.h in Headers */,
+				5625040E2642D18300FA3B12 /* chariter.h in Headers */,
+				562503B22642D18200FA3B12 /* choicfmt.h in Headers */,
+				56919BFD25FFCE6500E50C14 /* unicode.h in Headers */,
+				562504362642D18300FA3B12 /* ucnv_err.h in Headers */,
+				562503EC2642D18300FA3B12 /* casemap.h in Headers */,
+				562504C02642D18300FA3B12 /* unimatch.h in Headers */,
+				562503C42642D18300FA3B12 /* utext.h in Headers */,
+				562504DC2642D18300FA3B12 /* ucharstriebuilder.h in Headers */,
+				562504E22642D18300FA3B12 /* uconfig.h in Headers */,
+				562504F42642D18300FA3B12 /* uclean.h in Headers */,
+				562503D82642D18300FA3B12 /* vtzone.h in Headers */,
+				562504CE2642D18300FA3B12 /* parseerr.h in Headers */,
+				562504CC2642D18300FA3B12 /* utrans.h in Headers */,
+				5625039E2642D18200FA3B12 /* ufieldpositer.h in Headers */,
+				562504402642D18300FA3B12 /* uobject.h in Headers */,
+				562503E42642D18300FA3B12 /* usearch.h in Headers */,
+				562503C22642D18300FA3B12 /* uregion.h in Headers */,
+				562504182642D18300FA3B12 /* bytestriebuilder.h in Headers */,
+				562503C82642D18300FA3B12 /* parsepos.h in Headers */,
+				5625044C2642D18300FA3B12 /* caniter.h in Headers */,
+				562504A62642D18300FA3B12 /* ugender.h in Headers */,
+				5625043E2642D18300FA3B12 /* listformatter.h in Headers */,
+				5625049A2642D18300FA3B12 /* ucptrie.h in Headers */,
+				562504342642D18300FA3B12 /* dcfmtsym.h in Headers */,
+				5625048A2642D18300FA3B12 /* utmscale.h in Headers */,
+				562504DE2642D18300FA3B12 /* search.h in Headers */,
+				562503F02642D18300FA3B12 /* schriter.h in Headers */,
+				562504AE2642D18300FA3B12 /* ucnv_cb.h in Headers */,
+				562504A42642D18300FA3B12 /* unifunct.h in Headers */,
+				5625043A2642D18300FA3B12 /* bytestrie.h in Headers */,
+				562504522642D18300FA3B12 /* ucharstrie.h in Headers */,
+				5625048E2642D18300FA3B12 /* currpinf.h in Headers */,
+				562504682642D18300FA3B12 /* uversion.h in Headers */,
+				562504802642D18300FA3B12 /* udisplaycontext.h in Headers */,
+				562504962642D18300FA3B12 /* ustringtrie.h in Headers */,
+				562503DC2642D18300FA3B12 /* ubiditransform.h in Headers */,
+				562503F82642D18300FA3B12 /* ucpmap.h in Headers */,
+				5625041A2642D18300FA3B12 /* measunit.h in Headers */,
+				562504DA2642D18300FA3B12 /* ucnv.h in Headers */,
+				5625045E2642D18300FA3B12 /* unorm2.h in Headers */,
+				562504662642D18300FA3B12 /* bytestream.h in Headers */,
+				562503982642D18200FA3B12 /* ucsdet.h in Headers */,
+				562504F02642D18300FA3B12 /* utf8.h in Headers */,
+				5625039A2642D18200FA3B12 /* tzfmt.h in Headers */,
+				562503D42642D18300FA3B12 /* urep.h in Headers */,
+				562504E62642D18300FA3B12 /* brkiter.h in Headers */,
+				562505002642D18300FA3B12 /* measfmt.h in Headers */,
+				562503F62642D18300FA3B12 /* simpletz.h in Headers */,
+				562503EE2642D18300FA3B12 /* coleitr.h in Headers */,
+				5625039C2642D18200FA3B12 /* ubrk.h in Headers */,
+				562504D02642D18300FA3B12 /* putil.h in Headers */,
+				562504F62642D18300FA3B12 /* uscript.h in Headers */,
+				562504502642D18300FA3B12 /* upluralrules.h in Headers */,
+				562503EA2642D18300FA3B12 /* uset.h in Headers */,
+				562503AA2642D18200FA3B12 /* unirepl.h in Headers */,
+				562504862642D18300FA3B12 /* numberformatter.h in Headers */,
+				562504B42642D18300FA3B12 /* udateintervalformat.h in Headers */,
+				562504982642D18300FA3B12 /* smpdtfmt.h in Headers */,
+				562505022642D18300FA3B12 /* unifilt.h in Headers */,
+				562504B22642D18300FA3B12 /* locid.h in Headers */,
+				5625043C2642D18300FA3B12 /* udatpg.h in Headers */,
+				562503BC2642D18200FA3B12 /* dtintrv.h in Headers */,
+				5625048C2642D18300FA3B12 /* coll.h in Headers */,
+				562504A22642D18300FA3B12 /* ushape.h in Headers */,
+				562504EE2642D18300FA3B12 /* std_string.h in Headers */,
+				562504242642D18300FA3B12 /* enumset.h in Headers */,
+				562503942642D18200FA3B12 /* translit.h in Headers */,
+				562504122642D18300FA3B12 /* reldatefmt.h in Headers */,
+				562504822642D18300FA3B12 /* tztrans.h in Headers */,
+				562504542642D18300FA3B12 /* tmunit.h in Headers */,
+				562504102642D18300FA3B12 /* umisc.h in Headers */,
+				562504FA2642D18300FA3B12 /* currunit.h in Headers */,
+				562503CE2642D18300FA3B12 /* dtitvinf.h in Headers */,
+				562504262642D18300FA3B12 /* nounit.h in Headers */,
+				5625041E2642D18300FA3B12 /* locdspnm.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		56919D3B2601036C00E50C14 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				562503AF2642D18200FA3B12 /* fmtable.h in Headers */,
+				562504C52642D18300FA3B12 /* ucnvsel.h in Headers */,
+				562504392642D18300FA3B12 /* decimfmt.h in Headers */,
+				562504E12642D18300FA3B12 /* unumsys.h in Headers */,
+				562503FF2642D18300FA3B12 /* uiter.h in Headers */,
+				562504AB2642D18300FA3B12 /* uformattable.h in Headers */,
+				562503CB2642D18300FA3B12 /* ucal.h in Headers */,
+				562503DB2642D18300FA3B12 /* ustring.h in Headers */,
+				5625047D2642D18300FA3B12 /* compactdecimalformat.h in Headers */,
+				562504CB2642D18300FA3B12 /* ureldatefmt.h in Headers */,
+				562504B72642D18300FA3B12 /* resbund.h in Headers */,
+				562504A12642D18300FA3B12 /* unorm.h in Headers */,
+				562504C32642D18300FA3B12 /* rbtz.h in Headers */,
+				562503CD2642D18300FA3B12 /* fpositer.h in Headers */,
+				562504B92642D18300FA3B12 /* ubidi.h in Headers */,
+				562503E12642D18300FA3B12 /* umutablecptrie.h in Headers */,
+				562504292642D18300FA3B12 /* utf.h in Headers */,
+				562503A92642D18200FA3B12 /* dtfmtsym.h in Headers */,
+				562503D12642D18300FA3B12 /* rbnf.h in Headers */,
+				562504C72642D18300FA3B12 /* uspoof.h in Headers */,
+				562504012642D18300FA3B12 /* umsg.h in Headers */,
+				562504712642D18300FA3B12 /* tmutamt.h in Headers */,
+				562504EB2642D18300FA3B12 /* platform.h in Headers */,
+				562504072642D18300FA3B12 /* uniset.h in Headers */,
+				562504752642D18300FA3B12 /* uformattedvalue.h in Headers */,
+				5625040B2642D18300FA3B12 /* udata.h in Headers */,
+				562504A92642D18300FA3B12 /* selfmt.h in Headers */,
+				562503DF2642D18300FA3B12 /* uenum.h in Headers */,
+				5625045D2642D18300FA3B12 /* idna.h in Headers */,
+				562504432642D18300FA3B12 /* calendar.h in Headers */,
+				562504592642D18300FA3B12 /* rbbi.h in Headers */,
+				562504232642D18300FA3B12 /* uchriter.h in Headers */,
+				562503BB2642D18200FA3B12 /* tznames.h in Headers */,
+				562503D32642D18300FA3B12 /* udat.h in Headers */,
+				5625042D2642D18300FA3B12 /* tzrule.h in Headers */,
+				562503B92642D18200FA3B12 /* errorcode.h in Headers */,
+				5625040D2642D18300FA3B12 /* stringtriebuilder.h in Headers */,
+				5625044B2642D18300FA3B12 /* urename.h in Headers */,
+				562503E92642D18300FA3B12 /* timezone.h in Headers */,
+				562504792642D18300FA3B12 /* ucasemap.h in Headers */,
+				562504E52642D18300FA3B12 /* utf16.h in Headers */,
+				562504952642D18300FA3B12 /* plurfmt.h in Headers */,
+				562504092642D18300FA3B12 /* basictz.h in Headers */,
+				562503F52642D18300FA3B12 /* fieldpos.h in Headers */,
+				562504FD2642D18300FA3B12 /* utypes.h in Headers */,
+				562504652642D18300FA3B12 /* dbbi.h in Headers */,
+				5625042B2642D18300FA3B12 /* measure.h in Headers */,
+				562504492642D18300FA3B12 /* usprep.h in Headers */,
+				562504BD2642D18300FA3B12 /* alphaindex.h in Headers */,
+				562503B12642D18200FA3B12 /* dtitvfmt.h in Headers */,
+				562504212642D18300FA3B12 /* gregocal.h in Headers */,
+				5625047B2642D18300FA3B12 /* ucoleitr.h in Headers */,
+				562503AD2642D18200FA3B12 /* ptypes.h in Headers */,
+				562504D52642D18300FA3B12 /* scientificnumberformatter.h in Headers */,
+				5625044F2642D18300FA3B12 /* ucol.h in Headers */,
+				562504ED2642D18300FA3B12 /* rep.h in Headers */,
+				562503A12642D18200FA3B12 /* stringpiece.h in Headers */,
+				5625041D2642D18300FA3B12 /* utrace.h in Headers */,
+				562504B12642D18300FA3B12 /* curramt.h in Headers */,
+				562504D92642D18300FA3B12 /* dtrule.h in Headers */,
+				562504E92642D18300FA3B12 /* formattedvalue.h in Headers */,
+				5625049F2642D18300FA3B12 /* uchar.h in Headers */,
+				562504932642D18300FA3B12 /* tmutfmt.h in Headers */,
+				562504052642D18300FA3B12 /* docmain.h in Headers */,
+				5625047F2642D18300FA3B12 /* unum.h in Headers */,
+				562504BB2642D18300FA3B12 /* stsearch.h in Headers */,
+				562504332642D18300FA3B12 /* gender.h in Headers */,
+				562504572642D18300FA3B12 /* unistr.h in Headers */,
+				562504AD2642D18300FA3B12 /* simpleformatter.h in Headers */,
+				562503A32642D18200FA3B12 /* ucat.h in Headers */,
+				562504912642D18300FA3B12 /* uregex.h in Headers */,
+				562504852642D18300FA3B12 /* umachine.h in Headers */,
+				562503FB2642D18300FA3B12 /* uldnames.h in Headers */,
+				5625046B2642D18300FA3B12 /* messagepattern.h in Headers */,
+				562503C12642D18300FA3B12 /* icuplug.h in Headers */,
+				562503B52642D18200FA3B12 /* numberrangeformatter.h in Headers */,
+				562504172642D18300FA3B12 /* plurrule.h in Headers */,
+				562504F32642D18300FA3B12 /* localpointer.h in Headers */,
+				562504F92642D18300FA3B12 /* numfmt.h in Headers */,
+				562504892642D18300FA3B12 /* datefmt.h in Headers */,
+				562504BF2642D18300FA3B12 /* uvernum.h in Headers */,
+				562504C92642D18300FA3B12 /* region.h in Headers */,
+				5625049D2642D18300FA3B12 /* icudataver.h in Headers */,
+				562504772642D18300FA3B12 /* symtable.h in Headers */,
+				562504D72642D18300FA3B12 /* normalizer2.h in Headers */,
+				562503972642D18200FA3B12 /* utf_old.h in Headers */,
+				562504FF2642D18300FA3B12 /* ulistformatter.h in Headers */,
+				562504612642D18300FA3B12 /* localebuilder.h in Headers */,
+				562503A72642D18200FA3B12 /* stringoptions.h in Headers */,
+				562504152642D18300FA3B12 /* uloc.h in Headers */,
+				5625045B2642D18300FA3B12 /* ulocdata.h in Headers */,
+				562504472642D18300FA3B12 /* normlzr.h in Headers */,
+				562504732642D18300FA3B12 /* char16ptr.h in Headers */,
+				562503C72642D18300FA3B12 /* edits.h in Headers */,
+				5625046F2642D18300FA3B12 /* filteredbrk.h in Headers */,
+				562504032642D18300FA3B12 /* sortkey.h in Headers */,
+				562503B72642D18200FA3B12 /* usetiter.h in Headers */,
+				562504312642D18300FA3B12 /* regex.h in Headers */,
+				562503A52642D18200FA3B12 /* tblcoll.h in Headers */,
+				562504D32642D18300FA3B12 /* format.h in Headers */,
+				562504452642D18300FA3B12 /* ures.h in Headers */,
+				562503D72642D18300FA3B12 /* utf32.h in Headers */,
+				5625046D2642D18300FA3B12 /* uidna.h in Headers */,
+				5625042F2642D18300FA3B12 /* strenum.h in Headers */,
+				562503FD2642D18300FA3B12 /* unumberformatter.h in Headers */,
+				562503BF2642D18200FA3B12 /* ucurr.h in Headers */,
+				562503F32642D18300FA3B12 /* msgfmt.h in Headers */,
+				562503E72642D18300FA3B12 /* numsys.h in Headers */,
+				562503E32642D18300FA3B12 /* appendable.h in Headers */,
+				562504632642D18300FA3B12 /* dtptngen.h in Headers */,
+				5625040F2642D18300FA3B12 /* chariter.h in Headers */,
+				562503B32642D18200FA3B12 /* choicfmt.h in Headers */,
+				56919D5426010D0200E50C14 /* unicode.h in Headers */,
+				562504372642D18300FA3B12 /* ucnv_err.h in Headers */,
+				562503ED2642D18300FA3B12 /* casemap.h in Headers */,
+				562504C12642D18300FA3B12 /* unimatch.h in Headers */,
+				562503C52642D18300FA3B12 /* utext.h in Headers */,
+				562504DD2642D18300FA3B12 /* ucharstriebuilder.h in Headers */,
+				562504E32642D18300FA3B12 /* uconfig.h in Headers */,
+				562504F52642D18300FA3B12 /* uclean.h in Headers */,
+				562503D92642D18300FA3B12 /* vtzone.h in Headers */,
+				562504CF2642D18300FA3B12 /* parseerr.h in Headers */,
+				562504CD2642D18300FA3B12 /* utrans.h in Headers */,
+				5625039F2642D18200FA3B12 /* ufieldpositer.h in Headers */,
+				562504412642D18300FA3B12 /* uobject.h in Headers */,
+				562503E52642D18300FA3B12 /* usearch.h in Headers */,
+				562503C32642D18300FA3B12 /* uregion.h in Headers */,
+				562504192642D18300FA3B12 /* bytestriebuilder.h in Headers */,
+				562503C92642D18300FA3B12 /* parsepos.h in Headers */,
+				5625044D2642D18300FA3B12 /* caniter.h in Headers */,
+				562504A72642D18300FA3B12 /* ugender.h in Headers */,
+				5625043F2642D18300FA3B12 /* listformatter.h in Headers */,
+				5625049B2642D18300FA3B12 /* ucptrie.h in Headers */,
+				562504352642D18300FA3B12 /* dcfmtsym.h in Headers */,
+				5625048B2642D18300FA3B12 /* utmscale.h in Headers */,
+				562504DF2642D18300FA3B12 /* search.h in Headers */,
+				562503F12642D18300FA3B12 /* schriter.h in Headers */,
+				562504AF2642D18300FA3B12 /* ucnv_cb.h in Headers */,
+				562504A52642D18300FA3B12 /* unifunct.h in Headers */,
+				5625043B2642D18300FA3B12 /* bytestrie.h in Headers */,
+				562504532642D18300FA3B12 /* ucharstrie.h in Headers */,
+				5625048F2642D18300FA3B12 /* currpinf.h in Headers */,
+				562504692642D18300FA3B12 /* uversion.h in Headers */,
+				562504812642D18300FA3B12 /* udisplaycontext.h in Headers */,
+				562504972642D18300FA3B12 /* ustringtrie.h in Headers */,
+				562503DD2642D18300FA3B12 /* ubiditransform.h in Headers */,
+				562503F92642D18300FA3B12 /* ucpmap.h in Headers */,
+				5625041B2642D18300FA3B12 /* measunit.h in Headers */,
+				562504DB2642D18300FA3B12 /* ucnv.h in Headers */,
+				5625045F2642D18300FA3B12 /* unorm2.h in Headers */,
+				562504672642D18300FA3B12 /* bytestream.h in Headers */,
+				562503992642D18200FA3B12 /* ucsdet.h in Headers */,
+				562504F12642D18300FA3B12 /* utf8.h in Headers */,
+				5625039B2642D18200FA3B12 /* tzfmt.h in Headers */,
+				562503D52642D18300FA3B12 /* urep.h in Headers */,
+				562504E72642D18300FA3B12 /* brkiter.h in Headers */,
+				562505012642D18300FA3B12 /* measfmt.h in Headers */,
+				562503F72642D18300FA3B12 /* simpletz.h in Headers */,
+				562503EF2642D18300FA3B12 /* coleitr.h in Headers */,
+				5625039D2642D18200FA3B12 /* ubrk.h in Headers */,
+				562504D12642D18300FA3B12 /* putil.h in Headers */,
+				562504F72642D18300FA3B12 /* uscript.h in Headers */,
+				562504512642D18300FA3B12 /* upluralrules.h in Headers */,
+				562503EB2642D18300FA3B12 /* uset.h in Headers */,
+				562503AB2642D18200FA3B12 /* unirepl.h in Headers */,
+				562504872642D18300FA3B12 /* numberformatter.h in Headers */,
+				562504B52642D18300FA3B12 /* udateintervalformat.h in Headers */,
+				562504992642D18300FA3B12 /* smpdtfmt.h in Headers */,
+				562505032642D18300FA3B12 /* unifilt.h in Headers */,
+				562504B32642D18300FA3B12 /* locid.h in Headers */,
+				5625043D2642D18300FA3B12 /* udatpg.h in Headers */,
+				562503BD2642D18200FA3B12 /* dtintrv.h in Headers */,
+				5625048D2642D18300FA3B12 /* coll.h in Headers */,
+				562504A32642D18300FA3B12 /* ushape.h in Headers */,
+				562504EF2642D18300FA3B12 /* std_string.h in Headers */,
+				562504252642D18300FA3B12 /* enumset.h in Headers */,
+				562503952642D18200FA3B12 /* translit.h in Headers */,
+				562504132642D18300FA3B12 /* reldatefmt.h in Headers */,
+				562504832642D18300FA3B12 /* tztrans.h in Headers */,
+				562504552642D18300FA3B12 /* tmunit.h in Headers */,
+				562504112642D18300FA3B12 /* umisc.h in Headers */,
+				562504FB2642D18300FA3B12 /* currunit.h in Headers */,
+				562503CF2642D18300FA3B12 /* dtitvinf.h in Headers */,
+				562504272642D18300FA3B12 /* nounit.h in Headers */,
+				5625041F2642D18300FA3B12 /* locdspnm.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		56919BF725FFCE6500E50C14 /* unicode-macOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 56919BFE25FFCE6500E50C14 /* Build configuration list for PBXNativeTarget "unicode-macOS" */;
+			buildPhases = (
+				56919BF325FFCE6500E50C14 /* Headers */,
+				56919BF425FFCE6500E50C14 /* Sources */,
+				56919BF525FFCE6500E50C14 /* Frameworks */,
+				56919BF625FFCE6500E50C14 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "unicode-macOS";
+			productName = icu;
+			productReference = 56919BF825FFCE6500E50C14 /* unicode.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		56919D3F2601036C00E50C14 /* unicode-iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 56919D452601036C00E50C14 /* Build configuration list for PBXNativeTarget "unicode-iOS" */;
+			buildPhases = (
+				56919D3B2601036C00E50C14 /* Headers */,
+				56919D3C2601036C00E50C14 /* Sources */,
+				56919D3D2601036C00E50C14 /* Frameworks */,
+				56919D3E2601036C00E50C14 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "unicode-iOS";
+			productName = icu;
+			productReference = 56919D402601036C00E50C14 /* unicode.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		56919BED25FFCE3800E50C14 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1230;
+				TargetAttributes = {
+					56919BF725FFCE6500E50C14 = {
+						CreatedOnToolsVersion = 12.3;
+					};
+					56919D3F2601036C00E50C14 = {
+						CreatedOnToolsVersion = 12.3;
+					};
+				};
+			};
+			buildConfigurationList = 56919BF025FFCE3800E50C14 /* Build configuration list for PBXProject "unicode" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 56919BEC25FFCE3800E50C14;
+			productRefGroup = 56919BF925FFCE6500E50C14 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				56919BF725FFCE6500E50C14 /* unicode-macOS */,
+				56919D3F2601036C00E50C14 /* unicode-iOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		56919BF625FFCE6500E50C14 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		56919D3E2601036C00E50C14 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		56919BF425FFCE6500E50C14 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		56919D3C2601036C00E50C14 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		56919BF125FFCE3800E50C14 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Manual;
+				DYLIB_COMPATIBILITY_VERSION = 50.0;
+				DYLIB_CURRENT_VERSION = 50.0;
+				INFOPLIST_FILE = unicode/Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = com.readdle.unicode;
+			};
+			name = Debug;
+		};
+		56919BF225FFCE3800E50C14 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Manual;
+				DYLIB_COMPATIBILITY_VERSION = 50.0;
+				DYLIB_CURRENT_VERSION = 50.0;
+				INFOPLIST_FILE = unicode/Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = com.readdle.unicode;
+			};
+			name = Release;
+		};
+		56919BFF25FFCE6500E50C14 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = (
+					"-dead_strip",
+					"-all_load",
+					"-lstdc++",
+				);
+				PRODUCT_NAME = unicode;
+				SDKROOT = macosx;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		56919C0025FFCE6500E50C14 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				OTHER_LDFLAGS = (
+					"-dead_strip",
+					"-all_load",
+					"-lstdc++",
+				);
+				PRODUCT_NAME = unicode;
+				SDKROOT = macosx;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		56919D462601036C00E50C14 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_BITCODE = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = (
+					"-dead_strip",
+					"-all_load",
+					"-lstdc++",
+				);
+				PRODUCT_NAME = unicode;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2,6";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		56919D472601036C00E50C14 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_BITCODE = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				OTHER_LDFLAGS = (
+					"-dead_strip",
+					"-all_load",
+					"-lstdc++",
+				);
+				PRODUCT_NAME = unicode;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2,6";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		56919BF025FFCE3800E50C14 /* Build configuration list for PBXProject "unicode" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				56919BF125FFCE3800E50C14 /* Debug */,
+				56919BF225FFCE3800E50C14 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		56919BFE25FFCE6500E50C14 /* Build configuration list for PBXNativeTarget "unicode-macOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				56919BFF25FFCE6500E50C14 /* Debug */,
+				56919C0025FFCE6500E50C14 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		56919D452601036C00E50C14 /* Build configuration list for PBXNativeTarget "unicode-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				56919D462601036C00E50C14 /* Debug */,
+				56919D472601036C00E50C14 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 56919BED25FFCE3800E50C14 /* Project object */;
+}

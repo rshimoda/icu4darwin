@@ -1,10 +1,10 @@
 #!/bin/sh
 
 function build {
-# $1: Toolchain Name
-# $2: Toolchain architecture
-# $3: host for configure
-# $4: build version
+# $1: architecture
+# $2: host triple
+# $3: sdk name
+# $4: deployment target name
 
 unset CXX
 unset CC
@@ -14,26 +14,23 @@ unset LDFLAGS
 
 source "$PWD/../prefix.sh"
 
-echo "preparing $1 toolchain"
+ARCH=$1
+HOST=$2
+SDK=$3
+TARGET=$4
 
-export BUILD_DIR="${PWD}/build-${1}"
+echo "-- Building ${ARCH} (host ${HOST}) on ${SDK} for ${TARGET}"
 
-DEVELOPER="$(xcode-select --print-path)"
-SDKROOT="$(xcodebuild -version -sdk $4 | grep -E '^Path' | sed 's/Path: //')"
-ARCH=$2
+SDKROOT=$(xcrun --sdk ${SDK} --show-sdk-path) 
 
-ICU_FLAGS="-I${ICU_SOURCE}/common/ -I${ICU_SOURCE}/tools/tzcode/ "
+export BUILD_DIR="${PWD}/build-${ARCH}-${SDK}"
 
 export ADDITION_FLAG="-DIOS_SYSTEM_FIX"
 
-export CXX="${DEVELOPER}/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++"
-export CC="${DEVELOPER}/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang"
-export CFLAGS="-isysroot ${SDKROOT} -I${SDKROOT}/usr/include/ -I./include/ -arch ${ARCH} $5${ICU_FLAGS} ${CFLAGS} ${ADDITION_FLAG}"
-export CXXFLAGS="${CXXFLAGS} -stdlib=libc++ -isysroot ${SDKROOT} -I${SDKROOT}/usr/include/ -I./include/ -arch ${ARCH} $5${ICU_FLAGS} ${ADDITION_FLAG}"
-export LDFLAGS="-stdlib=libc++ -L${SDKROOT}/usr/lib/ -isysroot ${SDKROOT} -Wl,-dead_strip $5-lstdc++ ${ADDITION_FLAG}"
+export CFLAGS="-isysroot ${SDKROOT} ${CFLAGS} -target ${TARGET} ${ADDITION_FLAG}"
+export CXXFLAGS="-isysroot ${SDKROOT} ${CXXFLAGS} -stdlib=libc++ -target ${TARGET} ${ADDITION_FLAG}"
+export LDFLAGS="-isysroot ${SDKROOT} -stdlib=libc++ -Wl,-dead_strip -lstdc++ -target ${TARGET} ${ADDITION_FLAG}"
 
-echo "CXX: "$CXX
-echo "CC: "$CC
 echo "CFLAGS: "$CFLAGS
 echo "CXXFLAGS: "$CXXFLAGS
 echo "LDFLAGS: "$LDFLAGS
@@ -48,23 +45,25 @@ else
     export ICU_DATA_FILTER_FILE="${FILTER}"
 fi
 
-sh ${ICU_SOURCE}/configure --host=$3 --with-cross-build=${PREBUILD} ${CONFIG_PREFIX}
+${ICU_SOURCE}/configure --host=${HOST} --with-cross-build=${PREBUILD} ${CONFIG_PREFIX}
 
 make clean
-make -j8
-make install
+make -j`sysctl -n hw.ncpu`
+# make install
 
 cd ..
 
 }
 
 function combineICULibraries {
-# $1: Build Folder
-# $2: Combined Library Name
+# $1: working directory
+# $2: output library name
 initialWD=${PWD}
 
 cd $1/lib/
-libtool -static -o $2.a libicudata.a libicui18n.a libicuio.a libicutu.a libicuuc.a
+
+echo "-- Generating static library $2"
+libtool -o $2.a libicudata.a libicui18n.a libicuuc.a
 
 cd $initialWD
 
