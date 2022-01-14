@@ -1,1 +1,11 @@
 .DS_Store
+**/xcuserdata/*
+build/*
+XCFramework/*
+Frameworks/*
+Archive/*
+mac/build-*
+mac/fat-lib-*
+mac/mac-install
+ios/build-*
+ios/fat-lib-*

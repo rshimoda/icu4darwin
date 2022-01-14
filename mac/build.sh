@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/sh
 
 source "prefix.sh"
 source "helper.sh"
